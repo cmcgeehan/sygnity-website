@@ -1,0 +1,114 @@
+/* CSS Fixes for cursor and white space issues */
+
+/* Fix cursor styles for all interactive elements */
+a,
+button,
+[role="button"],
+input[type="submit"],
+input[type="button"],
+input[type="checkbox"],
+input[type="radio"],
+select,
+label,
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
+/* Text inputs should have text cursor */
+input:not([type="submit"]):not([type="button"]):not([type="checkbox"]):not([type="radio"]),
+textarea {
+  cursor: text !important;
+}
+
+/* Disabled elements */
+button:disabled,
+input:disabled,
+select:disabled,
+textarea:disabled,
+.cursor-not-allowed {
+  cursor: not-allowed !important;
+  opacity: 0.6;
+}
+
+/* Fix white space above hero sections */
+body {
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* Ensure main content doesn't have negative margins */
+main {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  position: relative;
+}
+
+/* Fix for sections directly after header */
+.pt-20 {
+  padding-top: 5rem !important;
+}
+
+/* Ensure no element can create white space above */
+body > * {
+  margin-top: 0 !important;
+}
+
+/* Fix hero section positioning */
+section:first-child {
+  margin-top: 0 !important;
+}
+
+/* Ensure header stays fixed properly */
+header.fixed {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  z-index: 50 !important;
+}
+
+/* Additional hover effects for better UX */
+a:hover,
+button:hover {
+  opacity: 0.9;
+  transition: opacity 0.2s ease;
+}
+
+/* Ensure all Link components are clickable */
+a[href] {
+  cursor: pointer !important;
+  display: inline-block;
+}
+
+/* Fix for button and link styling */
+.btn-primary,
+.btn-secondary {
+  cursor: pointer !important;
+  user-select: none;
+}
+
+/* Prevent scroll above page top */
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+/* Fix any potential z-index issues */
+.z-50 {
+  z-index: 50 !important;
+}
+
+.z-10 {
+  z-index: 10 !important;
+}
+
+/* Ensure clickable cards show pointer */
+.hover\:shadow-xl:hover {
+  cursor: pointer;
+}
+
+/* Fix mobile menu button */
+button[aria-label],
+button[type="button"] {
+  cursor: pointer !important;
+}

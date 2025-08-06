@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --navy-blue: #20394c;
+  --sky-blue: #aedff7;
+  --warm-beige: #f5f1ec;
+  --accent-green: #6cbf84;
+  --alert-coral: #ff6b6b;
+}
+
+@layer base {
+  body {
+    @apply bg-white text-gray-900;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-[#ff6b6b] hover:bg-[#ff5252] text-white font-semibold py-3 px-6 rounded-lg shadow-lg transition-all duration-200;
+    display: inline-flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 0.5rem !important;
+  }
+  
+  .btn-secondary {
+    @apply bg-[#20394c] hover:bg-[#1a2f3d] text-white font-semibold py-3 px-6 rounded-lg shadow-lg transition-all duration-200;
+    display: inline-flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 0.5rem !important;
+  }
+  
+  .section-padding {
+    @apply py-16 px-4 sm:px-6 lg:px-8;
+  }
+  
+  .container-max {
+    @apply max-w-7xl mx-auto;
+  }
+}
