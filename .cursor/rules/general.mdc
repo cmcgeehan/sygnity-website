@@ -399,3 +399,43 @@ Remember: Security is not a feature but a fundamental aspect of every component 
 - Check middleware configuration for route protection
 - Verify no external navigation links exist to unused pages
 - Document findings before taking action
+
+# Lessons & Patterns: Deploy Error Fix and Clean Build (2024-12-19)
+
+## Next.js 15 Metadata Changes
+- `canonical` property is not valid in Next.js `Metadata` type
+- Use `alternates: { canonical: 'url' }` for canonical URLs in dynamic routes
+- Metadata must be properly typed for TypeScript compilation
+- Remove invalid `canonical` properties from all page metadata objects
+
+## Build Cache Management
+- Webpack cache can become corrupted and cause module loading errors
+- Clear `.next` directory when build issues occur: `rm -rf .next`
+- Local build success doesn't guarantee deployment success
+- Always test builds locally before deploying to production
+
+## Deployment Best Practices
+- Always test builds locally before deploying: `npm run build`
+- Check TypeScript compilation thoroughly for any errors
+- Monitor build logs for warnings or errors during deployment
+- Use proper metadata syntax for SEO compliance
+- Clear build cache when encountering webpack module errors
+
+## Vercel Deployment Patterns
+- Use `vercel --prod` for production deployments
+- Monitor build logs for dependency installation and compilation
+- Check that all API routes are building correctly
+- Verify all pages are generating in build output
+- Production URL format: `https://project-name-hash-username.vercel.app`
+
+## TypeScript Error Resolution
+- Metadata errors often indicate invalid properties in page metadata
+- Search for invalid properties across all files: `grep -r "property_name" *.tsx`
+- Remove invalid properties systematically from all affected files
+- Preserve correct syntax (like `alternates.canonical`) when found
+
+## Build Process Verification
+- Successful build should show all pages in route output
+- API routes should appear as dynamic routes (ƒ symbol)
+- Static pages should appear as static routes (○ symbol)
+- Check build statistics for any missing pages or errors

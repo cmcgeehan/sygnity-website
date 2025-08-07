@@ -40,10 +40,11 @@ export function Footer() {
           <div>
             <h4 className="text-lg font-medium mb-4 tracking-wider all-lowercase">services</h4>
             <ul className="space-y-2">
-              <li><Link href="/services/adolescent-therapy" className="text-cream/80 hover:text-blush-pink transition-colors tracking-wider all-lowercase">adolescent therapy</Link></li>
-              <li><Link href="/services/substance-abuse" className="text-cream/80 hover:text-blush-pink transition-colors tracking-wider all-lowercase">substance use treatment</Link></li>
-              <li><Link href="/services/medication-management" className="text-cream/80 hover:text-blush-pink transition-colors tracking-wider all-lowercase">medication management</Link></li>
-              <li><Link href="/services/family-therapy" className="text-cream/80 hover:text-blush-pink transition-colors tracking-wider all-lowercase">family therapy</Link></li>
+              <li><Link href="/teen-anxiety" className="text-cream/80 hover:text-blush-pink transition-colors tracking-wider all-lowercase">teen anxiety therapy</Link></li>
+              <li><Link href="/teen-depression" className="text-cream/80 hover:text-blush-pink transition-colors tracking-wider all-lowercase">teen depression therapy</Link></li>
+              <li><Link href="/teen-adhd" className="text-cream/80 hover:text-blush-pink transition-colors tracking-wider all-lowercase">teen ADHD therapy</Link></li>
+              <li><Link href="/teen-trauma" className="text-cream/80 hover:text-blush-pink transition-colors tracking-wider all-lowercase">teen trauma therapy</Link></li>
+              <li><Link href="/school-refusal" className="text-cream/80 hover:text-blush-pink transition-colors tracking-wider all-lowercase">school refusal therapy</Link></li>
             </ul>
           </div>
 
@@ -51,10 +52,10 @@ export function Footer() {
             <h4 className="text-lg font-medium mb-4 tracking-wider all-lowercase">quick links</h4>
             <ul className="space-y-2">
               <li><Link href="/about" className="text-cream/80 hover:text-blush-pink transition-colors tracking-wider all-lowercase">about us</Link></li>
+              <li><Link href="/team" className="text-cream/80 hover:text-blush-pink transition-colors tracking-wider all-lowercase">our team</Link></li>
               <li><Link href="/for-parents" className="text-cream/80 hover:text-blush-pink transition-colors tracking-wider all-lowercase">for parents</Link></li>
-              <li><Link href="/faq" className="text-cream/80 hover:text-blush-pink transition-colors tracking-wider all-lowercase">faq</Link></li>
+              <li><Link href="/insurance" className="text-cream/80 hover:text-blush-pink transition-colors tracking-wider all-lowercase">insurance & payment</Link></li>
               <li><Link href="/contact" className="text-cream/80 hover:text-blush-pink transition-colors tracking-wider all-lowercase">contact</Link></li>
-              <li><Link href="/blog" className="text-cream/80 hover:text-blush-pink transition-colors tracking-wider all-lowercase">blog</Link></li>
             </ul>
           </div>
 

@@ -80,7 +80,7 @@ export default function ServicesPage() {
               </p>
             </div>
 
-            <div className="grid md:grid-cols-3 gap-8">
+            <div className="grid md:grid-cols-3 gap-8 mb-12">
               <div className="card p-6 rounded-xl">
                 <h3 className="text-xl font-medium text-charcoal mb-4 font-display tracking-wider small-caps">
                   <Link href="/teen-anxiety" className="hover:text-dusty-blue transition-colors">
@@ -119,6 +119,51 @@ export default function ServicesPage() {
                   Specialized EMDR and trauma-focused therapy to help teens heal from traumatic experiences and PTSD.
                 </p>
                 <Link href="/teen-trauma" className="text-blush-pink font-medium hover:text-dusty-blue transition-colors tracking-wider all-lowercase">
+                  Learn More →
+                </Link>
+              </div>
+            </div>
+
+            {/* Additional Specialized Services */}
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="card p-6 rounded-xl">
+                <h3 className="text-xl font-medium text-charcoal mb-4 font-display tracking-wider small-caps">
+                  <Link href="/teen-adhd" className="hover:text-dusty-blue transition-colors">
+                    Teen ADHD Therapy
+                  </Link>
+                </h3>
+                <p className="text-soft-gray mb-4 tracking-wide">
+                  Comprehensive ADHD assessment, behavioral therapy, and medication management for teenagers with attention and hyperactivity challenges.
+                </p>
+                <Link href="/teen-adhd" className="text-blush-pink font-medium hover:text-dusty-blue transition-colors tracking-wider all-lowercase">
+                  Learn More →
+                </Link>
+              </div>
+
+              <div className="card p-6 rounded-xl">
+                <h3 className="text-xl font-medium text-charcoal mb-4 font-display tracking-wider small-caps">
+                  <Link href="/school-refusal" className="hover:text-dusty-blue transition-colors">
+                    School Refusal Therapy
+                  </Link>
+                </h3>
+                <p className="text-soft-gray mb-4 tracking-wide">
+                  Specialized intervention for teenagers struggling with school avoidance, attendance issues, and academic anxiety.
+                </p>
+                <Link href="/school-refusal" className="text-blush-pink font-medium hover:text-dusty-blue transition-colors tracking-wider all-lowercase">
+                  Learn More →
+                </Link>
+              </div>
+
+              <div className="card p-6 rounded-xl">
+                <h3 className="text-xl font-medium text-charcoal mb-4 font-display tracking-wider small-caps">
+                  <Link href="/teen-self-harm" className="hover:text-dusty-blue transition-colors">
+                    Self-Harm Recovery
+                  </Link>
+                </h3>
+                <p className="text-soft-gray mb-4 tracking-wide">
+                  Compassionate therapy and crisis support for teenagers struggling with self-injury behaviors, focusing on healing and recovery.
+                </p>
+                <Link href="/teen-self-harm" className="text-blush-pink font-medium hover:text-dusty-blue transition-colors tracking-wider all-lowercase">
                   Learn More →
                 </Link>
               </div>

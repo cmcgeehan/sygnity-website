@@ -31,7 +31,7 @@ export function Hero() {
             <div className="flex items-center gap-6 text-sm text-soft-gray">
               <div className="flex items-center gap-2">
                 <div className="w-3 h-3 bg-dusty-blue rounded-full"></div>
-                <span className="tracking-wider all-lowercase">licensed teen therapists</span>
+                <Link href="/team" className="tracking-wider all-lowercase hover:text-dusty-blue transition-colors">licensed teen therapists</Link>
               </div>
               <div className="flex items-center gap-2">
                 <div className="w-3 h-3 bg-dusty-blue rounded-full"></div>
