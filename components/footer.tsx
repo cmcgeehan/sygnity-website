@@ -3,82 +3,88 @@ import { Phone, Mail, MapPin } from 'lucide-react'
 
 export function Footer() {
   return (
-    <footer className="bg-[#20394c] text-white">
+    <footer className="bg-charcoal text-cream">
       <div className="container-max section-padding">
-        <div className="grid md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-2xl font-bold mb-4">Sygnity Wellness</h3>
-            <p className="text-gray-300 mb-4">
+            <div className="mb-4">
+              <img 
+                src="/avelaWordmark.png" 
+                alt="Avela Therapy" 
+                className="h-12 w-auto"
+              />
+            </div>
+            <p className="text-cream/80 mb-4 tracking-wide">
               Professional mental health services for adolescents, adults, and families throughout Florida.
             </p>
             <div className="space-y-2">
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4" />
-                            <Link href="tel:+15616142857" className="hover:text-[#aedff7]">
+                            <Link href="tel:+15616142857" className="hover:text-blush-pink transition-colors tracking-wider">
               (561) 614-2857
                 </Link>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4" />
-                <Link href="mailto:info@sygnity-wellness.com" className="hover:text-[#aedff7]">
-                  info@sygnity-wellness.com
+                <Link href="mailto:chris.gamer@thisiswellness.com" className="hover:text-blush-pink transition-colors tracking-wider">
+                  chris.gamer@thisiswellness.com
                 </Link>
               </div>
               <div className="flex items-center gap-2">
                 <MapPin className="w-4 h-4" />
-                <span>Serving all of Florida</span>
+                <span className="tracking-wider">serving all of florida</span>
               </div>
             </div>
           </div>
 
           <div>
-            <h4 className="text-lg font-semibold mb-4">Services</h4>
+            <h4 className="text-lg font-medium mb-4 tracking-wider all-lowercase">services</h4>
             <ul className="space-y-2">
-              <li><Link href="/services/adolescent-therapy" className="text-gray-300 hover:text-white">Adolescent Therapy</Link></li>
-              <li><Link href="/services/substance-abuse" className="text-gray-300 hover:text-white">Substance Use Treatment</Link></li>
-              <li><Link href="/services/medication-management" className="text-gray-300 hover:text-white">Medication Management</Link></li>
-              <li><Link href="/services/family-therapy" className="text-gray-300 hover:text-white">Family Therapy</Link></li>
+              <li><Link href="/services/adolescent-therapy" className="text-cream/80 hover:text-blush-pink transition-colors tracking-wider all-lowercase">adolescent therapy</Link></li>
+              <li><Link href="/services/substance-abuse" className="text-cream/80 hover:text-blush-pink transition-colors tracking-wider all-lowercase">substance use treatment</Link></li>
+              <li><Link href="/services/medication-management" className="text-cream/80 hover:text-blush-pink transition-colors tracking-wider all-lowercase">medication management</Link></li>
+              <li><Link href="/services/family-therapy" className="text-cream/80 hover:text-blush-pink transition-colors tracking-wider all-lowercase">family therapy</Link></li>
             </ul>
           </div>
 
           <div>
-            <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
+            <h4 className="text-lg font-medium mb-4 tracking-wider all-lowercase">quick links</h4>
             <ul className="space-y-2">
-              <li><Link href="/about" className="text-gray-300 hover:text-white">About Us</Link></li>
-              <li><Link href="/for-parents" className="text-gray-300 hover:text-white">For Parents</Link></li>
-              <li><Link href="/faq" className="text-gray-300 hover:text-white">FAQ</Link></li>
-              <li><Link href="/contact" className="text-gray-300 hover:text-white">Contact</Link></li>
-              <li><Link href="/blog" className="text-gray-300 hover:text-white">Blog</Link></li>
+              <li><Link href="/about" className="text-cream/80 hover:text-blush-pink transition-colors tracking-wider all-lowercase">about us</Link></li>
+              <li><Link href="/for-parents" className="text-cream/80 hover:text-blush-pink transition-colors tracking-wider all-lowercase">for parents</Link></li>
+              <li><Link href="/faq" className="text-cream/80 hover:text-blush-pink transition-colors tracking-wider all-lowercase">faq</Link></li>
+              <li><Link href="/contact" className="text-cream/80 hover:text-blush-pink transition-colors tracking-wider all-lowercase">contact</Link></li>
+              <li><Link href="/blog" className="text-cream/80 hover:text-blush-pink transition-colors tracking-wider all-lowercase">blog</Link></li>
             </ul>
           </div>
 
           <div>
-            <h4 className="text-lg font-semibold mb-4">Crisis Resources</h4>
+            <h4 className="text-lg font-medium mb-4 tracking-wider all-lowercase">crisis resources</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <strong>National Suicide Prevention Lifeline:</strong>
+                <strong className="tracking-wider all-lowercase">national suicide prevention lifeline:</strong>
                 <br />
-                <Link href="tel:988" className="text-[#aedff7] hover:text-white">988</Link>
+                <Link href="tel:988" className="text-dusty-blue hover:text-blush-pink transition-colors tracking-wider">988</Link>
               </li>
               <li>
-                <strong>Crisis Text Line:</strong>
+                <strong className="tracking-wider all-lowercase">crisis text line:</strong>
                 <br />
-                Text HOME to 741741
+                <span className="tracking-wider all-lowercase">text HOME to 741741</span>
               </li>
               <li>
-                <strong>Emergency:</strong>
+                <strong className="tracking-wider all-lowercase">emergency:</strong>
                 <br />
-                <Link href="tel:911" className="text-[#ff6b6b] hover:text-white">911</Link>
+                <Link href="tel:911" className="text-blush-pink hover:text-dusty-blue transition-colors tracking-wider">911</Link>
               </li>
             </ul>
           </div>
         </div>
 
-        <div className="border-t border-gray-600 mt-8 pt-8 text-center">
-          <p className="text-gray-300">
-            &copy; {new Date().getFullYear()} Sygnity Wellness. All rights reserved. | 
-            <Link href="/privacy" className="hover:text-white ml-1">Privacy Policy</Link> | 
-            <Link href="/terms" className="hover:text-white ml-1">Terms of Service</Link>
+        <div className="border-t border-dusty-blue/20 pt-8 mt-8 text-center text-sm text-cream/60">
+          <p>
+            &copy; {new Date().getFullYear()} Avela Therapy. All rights reserved. |
+            <Link href="/privacy" className="hover:text-blush-pink ml-1 transition-colors tracking-wider all-lowercase">privacy policy</Link> |
+            <Link href="/terms" className="hover:text-blush-pink ml-1 transition-colors tracking-wider all-lowercase">terms of service</Link>
           </p>
         </div>
       </div>

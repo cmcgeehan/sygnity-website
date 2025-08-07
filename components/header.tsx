@@ -58,13 +58,15 @@ export function Header() {
   }, [isMounted])
 
   return (
-    <header className="fixed top-0 w-full bg-white shadow-lg z-50">
+    <header className="fixed top-0 w-full bg-[#F3E7DA]/95 backdrop-blur-sm shadow-sm border-b border-dusty-blue/10 z-50">
       <div className="container-max">
         <div className="flex items-center justify-between h-16 px-4 sm:px-6 lg:px-8">
           <Link href="/" className="flex items-center">
-            <div className="text-2xl font-bold text-[#20394c]">
-              Sygnity Wellness
-            </div>
+            <img 
+              src="/avelaWordmark.png" 
+              alt="Avela Therapy" 
+              className="h-12 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}
@@ -73,7 +75,7 @@ export function Header() {
               <Link
                 key={item.name}
                 href={item.href}
-                className="text-gray-700 hover:text-[#20394c] font-medium transition-colors"
+                className="text-charcoal hover:text-dusty-blue font-medium transition-colors tracking-wider all-lowercase"
               >
                 {item.name}
               </Link>
@@ -83,7 +85,7 @@ export function Header() {
             <div className="relative" ref={locationsRef}>
               <button
                 onClick={() => isMounted && setIsLocationsOpen(!isLocationsOpen)}
-                className="text-gray-700 hover:text-[#20394c] font-medium transition-colors flex items-center gap-1"
+                className="text-charcoal hover:text-dusty-blue font-medium transition-colors flex items-center gap-1 tracking-wider all-lowercase"
                 type="button"
                 aria-expanded={isLocationsOpen}
                 aria-haspopup="true"
@@ -96,7 +98,7 @@ export function Header() {
               </button>
               
               <div 
-                className={`absolute top-full left-0 mt-2 w-48 bg-white border border-gray-200 rounded-lg shadow-lg py-2 z-50 transition-all duration-200 ${
+                className={`absolute top-full left-0 mt-2 w-48 bg-[#F3E7DA]/95 backdrop-blur-sm border border-dusty-blue/20 rounded-lg shadow-lg py-2 z-50 transition-all duration-200 ${
                   isLocationsOpen && isMounted ? 'opacity-100 visible' : 'opacity-0 invisible pointer-events-none'
                 }`}
               >
@@ -104,7 +106,7 @@ export function Header() {
                   <Link
                     key={location.name}
                     href={location.href}
-                    className="block px-4 py-2 text-gray-700 hover:text-[#20394c] hover:bg-gray-50 transition-colors"
+                    className="block px-4 py-2 text-charcoal hover:text-dusty-blue hover:bg-dusty-blue/5 transition-colors tracking-wider all-lowercase"
                     onClick={() => setIsLocationsOpen(false)}
                   >
                     {location.name}
@@ -131,15 +133,15 @@ export function Header() {
             aria-label="Toggle navigation menu"
           >
             {isMenuOpen ? (
-              <X className="w-6 h-6 text-gray-700" />
+              <X className="w-6 h-6 text-charcoal" />
             ) : (
-              <Menu className="w-6 h-6 text-gray-700" />
+              <Menu className="w-6 h-6 text-charcoal" />
             )}
           </button>
         </div>
 
         {/* Mobile Navigation */}
-        <div className={`md:hidden bg-white border-t absolute top-full left-0 right-0 z-50 shadow-lg ${isMenuOpen ? 'block' : 'hidden'}`}>
+        <div className={`md:hidden bg-[#F3E7DA]/95 backdrop-blur-sm border-t border-dusty-blue/10 absolute top-full left-0 right-0 z-50 shadow-lg ${isMenuOpen ? 'block' : 'hidden'}`}>
           <div className="px-4 py-6">
             <div className="flex flex-col space-y-6">
               {/* Main Navigation Items */}
@@ -148,7 +150,7 @@ export function Header() {
                   <Link
                     key={item.name}
                     href={item.href}
-                    className="text-gray-700 hover:text-[#20394c] font-medium py-2 border-b border-gray-100"
+                    className="text-charcoal hover:text-dusty-blue font-medium py-2 border-b border-dusty-blue/10 tracking-wider all-lowercase"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     {item.name}
@@ -158,13 +160,13 @@ export function Header() {
               
               {/* Mobile Locations */}
               <div className="border-t pt-4">
-                <div className="text-sm font-semibold text-gray-500 mb-3">Locations</div>
+                <div className="text-sm font-semibold text-soft-gray mb-3 tracking-wider all-lowercase">locations</div>
                 <div className="flex flex-col space-y-3">
                   {locations.map((location) => (
                     <Link
                       key={location.name}
                       href={location.href}
-                      className="text-gray-700 hover:text-[#20394c] font-medium py-2 pl-4 border-b border-gray-100"
+                      className="text-charcoal hover:text-dusty-blue font-medium py-2 pl-4 border-b border-dusty-blue/10 tracking-wider all-lowercase"
                       onClick={() => setIsMenuOpen(false)}
                     >
                       {location.name}

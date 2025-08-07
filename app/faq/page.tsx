@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import { FAQAccordion } from '@/components/faq-accordion'
 
 export const metadata: Metadata = {
-  title: 'FAQ - Sygnity Wellness',
-  description: 'Frequently asked questions about therapy services, insurance, costs, and what to expect at Sygnity Wellness in Florida.',
+  title: 'FAQ - Avela Therapy',
+  description: 'Frequently asked questions about therapy services, insurance, costs, and what to expect at Avela Therapy in Florida.',
 }
 
 const faqs = [

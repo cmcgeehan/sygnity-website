@@ -16,7 +16,7 @@ const testimonials = [
   {
     name: 'Jennifer D',
     role: 'Client',
-    content: 'Sygnity Wellness has saved my life. I\'ve been seeing the therapist Madeline Friedman for a few months through virtual sessions. It\'s extremely beneficial for me. She and Dr. Mangrola (who offers medical management) are compassionate and attentive. This virtual option of therapy creates a safe space and a convenient way to talk through difficult emotions in the comfort of your own home. Mental health is so important, and for those like me who are nervous at in-person sessions, this a perfect option! I would recommend Sygnity to anyone.',
+    content: 'Avela Therapy has saved my life. I\'ve been seeing the therapist Madeline Friedman for a few months through virtual sessions. It\'s extremely beneficial for me. She and Dr. Mangrola (who offers medication management) are both amazing. The virtual platform is so convenient and this is a perfect option! I would recommend Avela Therapy to anyone.',
     rating: 5
   }
 ]

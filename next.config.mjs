@@ -7,7 +7,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'sygnityhealth.com',
+        hostname: 'avelatherapy.com',
       },
     ],
   },

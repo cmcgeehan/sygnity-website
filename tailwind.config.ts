@@ -13,6 +13,14 @@ const config: Config = {
   theme: {
   	extend: {
   		colors: {
+  			// New brand colors
+  			'dusty-blue': '#9EB1C9',
+  			'blush-pink': '#E4C6BF',
+  			'cream': '#FAF5EF',
+  			'soft-gray': '#7A8A9B',
+  			'charcoal': '#3D4A5C',
+  			
+  			// System colors using new palette
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
@@ -63,11 +71,6 @@ const config: Config = {
   				border: 'hsl(var(--sidebar-border))',
   				ring: 'hsl(var(--sidebar-ring))'
   			},
-        'navy-blue': '#20394c',
-        'sky-blue': '#aedff7',
-        'warm-beige': '#f5f1ec',
-        'accent-green': '#6cbf84',
-        'alert-coral': '#ff6b6b',
   		},
   		borderRadius: {
   			lg: 'var(--radius)',
@@ -97,7 +100,17 @@ const config: Config = {
   			'accordion-up': 'accordion-up 0.2s ease-out'
   		},
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
+        sans: ['Source Sans 3', 'Inter', 'system-ui', 'sans-serif'],
+        display: ['Playfair Display', 'serif'],
+      },
+      letterSpacing: {
+        tighter: '-.05em',
+        tight: '-.025em',
+        normal: '0',
+        wide: '.025em',
+        wider: '.05em',
+        widest: '.1em',
+        'extra-wide': '.15em',
       },
   	}
   },

@@ -3,16 +3,14 @@ import Link from 'next/link'
 import { Phone, CheckCircle, ArrowRight, Heart, Brain, Shield, Star } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Teen Trauma Therapy Florida | PTSD & Grief Counseling for Teenagers - Sygnity Wellness',
-  description: 'Professional teen trauma therapy in Florida. Virtual PTSD therapy and grief counseling for teenagers. EMDR therapy and trauma treatment for adolescents online.',
-  keywords: 'teen trauma therapy Florida, PTSD therapy for teenagers Florida, virtual trauma counseling teens Florida, adolescent trauma treatment Florida, teen grief counseling Florida, teen EMDR therapy Florida, trauma therapy for adolescents Florida',
-  alternates: {
-    canonical: 'https://sygnityhealth.com/teen-trauma'
-  },
+  title: 'Teen Trauma Therapy Florida | PTSD & Grief Counseling for Teenagers - Avela Therapy',
+  description: 'Professional teen trauma therapy in Florida. PTSD and grief counseling for teenagers. Licensed therapists specializing in adolescent trauma treatment and recovery.',
+  keywords: ['teen trauma therapy', 'PTSD counseling', 'grief counseling', 'adolescent trauma treatment'],
+  canonical: 'https://avelatherapy.com/teen-trauma',
   openGraph: {
-    title: 'Teen Trauma Therapy Florida | PTSD & Grief Counseling for Teenagers',
-    description: 'Professional teen trauma therapy in Florida. Virtual PTSD therapy and grief counseling for teenagers.',
-    url: 'https://sygnityhealth.com/teen-trauma',
+    title: 'Teen Trauma Therapy Florida | PTSD & Grief Counseling for Teenagers - Avela Therapy',
+    description: 'Professional teen trauma therapy in Florida. PTSD and grief counseling for teenagers.',
+    url: 'https://avelatherapy.com/teen-trauma',
   }
 }
 

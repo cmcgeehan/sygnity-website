@@ -1,8 +1,9 @@
 import Link from 'next/link'
-import { MapPin, Phone } from 'lucide-react'
+import { MapPin, Phone, ArrowRight } from 'lucide-react'
+import { Metadata } from 'next'
 
-export const metadata = {
-  title: 'Teen Therapy Locations in Florida | Virtual & In-Person Services - Sygnity Wellness',
+export const metadata: Metadata = {
+  title: 'Teen Therapy Locations in Florida | Virtual & In-Person Services - Avela Therapy',
   description: 'Find teen therapy services in Florida. Virtual therapy available statewide with in-person options in Miami, Orlando, Tampa, West Palm Beach, and Fort Lauderdale.',
   keywords: 'teen therapy locations Florida, virtual teen therapy Florida, teen counseling Miami, teen therapy Orlando, teen therapy Tampa, teen therapy West Palm Beach, teen therapy Fort Lauderdale',
 }
@@ -101,27 +102,28 @@ export default function LocationsPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-[#20394c] py-16">
+      <section className="bg-charcoal py-16">
         <div className="container-max text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-            Ready to Help Your Teen?
+          <h2 className="text-3xl md:text-4xl font-light text-cream mb-6 font-display tracking-wider small-caps">
+            ready to help your teen?
           </h2>
-          <p className="text-xl text-gray-200 mb-8 max-w-2xl mx-auto">
-            Start with a free consultation to see how our virtual teen therapy can help your family.
+          <p className="text-xl text-cream/80 mb-8 max-w-2xl mx-auto tracking-wide">
+            start with a free consultation to see how our virtual teen therapy can help your family.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link 
               href="tel:+15616142857"
-              className="inline-flex items-center justify-center px-8 py-4 bg-white text-[#20394c] font-semibold rounded-lg hover:bg-gray-100 transition-colors"
+              className="btn-primary text-lg py-4 px-8"
             >
-              <Phone className="w-5 h-5 mr-2" />
-              Call Now
+              <Phone className="w-5 h-5" />
+              call now
             </Link>
             <Link 
               href="/contact"
-              className="inline-flex items-center justify-center px-8 py-4 border-2 border-white text-white font-semibold rounded-lg hover:bg-white hover:text-[#20394c] transition-colors"
+              className="btn-secondary text-lg py-4 px-8"
             >
-              Get Started
+              <ArrowRight className="w-5 h-5" />
+              get started
             </Link>
           </div>
         </div>

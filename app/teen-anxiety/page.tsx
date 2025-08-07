@@ -3,16 +3,14 @@ import Link from 'next/link'
 import { Phone, CheckCircle, ArrowRight, Heart, Brain, Shield } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Teen Anxiety Therapy Florida | Virtual Anxiety Treatment for Teenagers - Sygnity Wellness',
-  description: 'Professional teen anxiety therapy in Florida. Virtual anxiety treatment for teenagers with social anxiety, panic attacks, and anxiety disorders. Licensed therapists available online.',
-  keywords: 'teen anxiety therapy Florida, anxiety treatment for teenagers Florida, virtual anxiety therapy teens Florida, teen social anxiety Florida treatment, panic attacks in teenagers Florida, teen anxiety disorder Florida',
-  alternates: {
-    canonical: 'https://sygnityhealth.com/teen-anxiety'
-  },
+  title: 'Teen Anxiety Therapy Florida | Virtual Anxiety Treatment for Teenagers - Avela Therapy',
+  description: 'Professional teen anxiety therapy in Florida. Virtual anxiety treatment for teenagers. Licensed therapists specializing in adolescent anxiety disorders and panic attacks.',
+  keywords: ['teen anxiety therapy', 'virtual anxiety treatment', 'adolescent anxiety', 'teen panic attacks'],
+  canonical: 'https://avelatherapy.com/teen-anxiety',
   openGraph: {
-    title: 'Teen Anxiety Therapy Florida | Virtual Anxiety Treatment for Teenagers',
-    description: 'Professional teen anxiety therapy in Florida. Virtual anxiety treatment for teenagers with social anxiety, panic attacks, and anxiety disorders.',
-    url: 'https://sygnityhealth.com/teen-anxiety',
+    title: 'Teen Anxiety Therapy Florida | Virtual Anxiety Treatment for Teenagers - Avela Therapy',
+    description: 'Professional teen anxiety therapy in Florida. Virtual anxiety treatment for teenagers.',
+    url: 'https://avelatherapy.com/teen-anxiety',
   }
 }
 

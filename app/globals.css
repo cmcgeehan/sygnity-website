@@ -1,24 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Source+Sans+3:wght@300;400;500;600&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --navy-blue: #20394c;
-  --sky-blue: #aedff7;
-  --warm-beige: #f5f1ec;
-  --accent-green: #6cbf84;
-  --alert-coral: #ff6b6b;
+  --dusty-blue: #9EB1C9;
+  --blush-pink: #E4C6BF;
+  --cream: #FAF5EF;
+  --soft-gray: #7A8A9B;
+  --charcoal: #3D4A5C;
 }
 
 @layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  
   body {
-    @apply bg-white text-gray-900;
+    @apply bg-cream text-charcoal font-sans tracking-wide;
+    font-feature-settings: "liga" 1, "kern" 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display tracking-wider;
+    text-transform: lowercase;
+    font-variant: small-caps;
+  }
+  
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl font-light;
+  }
+  
+  h2 {
+    @apply text-3xl md:text-4xl font-light;
+  }
+  
+  h3 {
+    @apply text-2xl md:text-3xl font-normal;
+  }
+  
+  h4 {
+    @apply text-xl md:text-2xl font-normal;
+  }
+  
+  h5 {
+    @apply text-lg md:text-xl font-medium;
+  }
+  
+  h6 {
+    @apply text-base md:text-lg font-medium;
+  }
+  
+  p {
+    @apply leading-relaxed tracking-wide;
+  }
+  
+  a {
+    @apply transition-colors duration-200;
+  }
+  
+  button, .button {
+    text-transform: lowercase;
+    @apply tracking-wider;
   }
 }
 
 @layer components {
   .btn-primary {
-    @apply bg-[#ff6b6b] hover:bg-[#ff5252] text-white font-semibold py-3 px-6 rounded-lg shadow-lg transition-all duration-200;
+    @apply bg-dusty-blue hover:bg-dusty-blue/90 text-white font-medium py-3 px-6 rounded-lg shadow-sm transition-all duration-200 tracking-wider;
+    text-transform: lowercase;
     display: inline-flex !important;
     flex-direction: row !important;
     align-items: center !important;
@@ -27,7 +79,18 @@
   }
   
   .btn-secondary {
-    @apply bg-[#20394c] hover:bg-[#1a2f3d] text-white font-semibold py-3 px-6 rounded-lg shadow-lg transition-all duration-200;
+    @apply bg-blush-pink hover:bg-blush-pink/90 text-charcoal font-medium py-3 px-6 rounded-lg shadow-sm transition-all duration-200 tracking-wider;
+    text-transform: lowercase;
+    display: inline-flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 0.5rem !important;
+  }
+  
+  .btn-outline {
+    @apply border-2 border-dusty-blue text-dusty-blue hover:bg-dusty-blue hover:text-white font-medium py-3 px-6 rounded-lg transition-all duration-200 tracking-wider;
+    text-transform: lowercase;
     display: inline-flex !important;
     flex-direction: row !important;
     align-items: center !important;
@@ -42,4 +105,35 @@
   .container-max {
     @apply max-w-7xl mx-auto;
   }
+  
+  .text-elegant {
+    text-transform: lowercase;
+    font-variant: small-caps;
+    @apply tracking-wider;
+  }
+  
+  .card {
+    @apply bg-white/50 backdrop-blur-sm rounded-lg shadow-sm border border-dusty-blue/10;
+  }
+  
+  .link-hover {
+    @apply hover:text-dusty-blue transition-colors duration-200;
+  }
 }
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .all-lowercase {
+    text-transform: lowercase !important;
+    font-variant: normal !important;
+  }
+  
+  .small-caps {
+    font-variant: small-caps;
+    text-transform: lowercase;
+  }
+}
+

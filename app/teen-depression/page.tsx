@@ -3,16 +3,14 @@ import Link from 'next/link'
 import { Phone, CheckCircle, ArrowRight, Heart, Brain, Sun } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Teen Depression Therapy Florida | Help My Depressed Teenager - Sygnity Wellness',
-  description: 'Professional teen depression therapy in Florida. Virtual depression counseling for teenagers. Help your depressed teenager with online therapy from licensed therapists.',
-  keywords: 'teen depression therapy Florida, help my depressed teenager Florida, virtual depression therapy teens Florida, teen depression counseling Florida, adolescent depression treatment Florida, my teen is depressed and won\'t talk Florida',
-  alternates: {
-    canonical: 'https://sygnityhealth.com/teen-depression'
-  },
+  title: 'Teen Depression Therapy Florida | Help My Depressed Teenager - Avela Therapy',
+  description: 'Professional teen depression therapy in Florida. Help for depressed teenagers with virtual counseling. Licensed therapists specializing in adolescent depression treatment.',
+  keywords: ['teen depression therapy', 'depressed teenager help', 'adolescent depression', 'virtual depression counseling'],
+  canonical: 'https://avelatherapy.com/teen-depression',
   openGraph: {
-    title: 'Teen Depression Therapy Florida | Help My Depressed Teenager',
-    description: 'Professional teen depression therapy in Florida. Virtual depression counseling for teenagers from licensed therapists.',
-    url: 'https://sygnityhealth.com/teen-depression',
+    title: 'Teen Depression Therapy Florida | Help My Depressed Teenager - Avela Therapy',
+    description: 'Professional teen depression therapy in Florida. Help for depressed teenagers with virtual counseling.',
+    url: 'https://avelatherapy.com/teen-depression',
   }
 }
 

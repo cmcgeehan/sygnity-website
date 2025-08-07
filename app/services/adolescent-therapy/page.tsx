@@ -3,16 +3,14 @@ import Link from 'next/link'
 import { Phone, CheckCircle, ArrowRight, Brain, Heart, Users, Shield, Star, Target, Lightbulb } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Adolescent Therapy Florida | Virtual Teen Mental Health Treatment - Sygnity Wellness',
-  description: 'Professional adolescent therapy in Florida. Virtual teen mental health treatment for anxiety, depression, trauma, and behavioral issues. Licensed therapists specializing in teenage counseling online.',
-  keywords: 'adolescent therapy Florida, teen mental health treatment Florida, virtual teen counseling Florida, teen therapy services Florida, teenage therapy Florida, adolescent mental health Florida, teen counseling services Florida',
-  alternates: {
-    canonical: 'https://sygnityhealth.com/services/adolescent-therapy'
-  },
+  title: 'Adolescent Therapy Florida | Virtual Teen Mental Health Treatment - Avela Therapy',
+  description: 'Professional adolescent therapy in Florida. Virtual teen mental health treatment for anxiety, depression, and trauma. Licensed therapists specializing in teen counseling.',
+  keywords: ['adolescent therapy', 'teen mental health', 'virtual teen counseling', 'teen therapy florida'],
+  canonical: 'https://avelatherapy.com/services/adolescent-therapy',
   openGraph: {
-    title: 'Adolescent Therapy Florida | Virtual Teen Mental Health Treatment',
-    description: 'Professional adolescent therapy in Florida. Virtual teen mental health treatment for anxiety, depression, trauma, and behavioral issues.',
-    url: 'https://sygnityhealth.com/services/adolescent-therapy',
+    title: 'Adolescent Therapy Florida | Virtual Teen Mental Health Treatment - Avela Therapy',
+    description: 'Professional adolescent therapy in Florida. Virtual teen mental health treatment for anxiety, depression, and trauma.',
+    url: 'https://avelatherapy.com/services/adolescent-therapy',
   }
 }
 

@@ -20,31 +20,31 @@ export function StickyCallBar() {
 
   if (!isVisible || isDismissed) {
     return (
-      <div className="fixed bottom-0 left-0 right-0 bg-[#ff6b6b] text-white p-4 z-50 md:hidden">
-        <Link href="tel:+15616142857" className="flex items-center justify-center gap-2 font-semibold">
+      <div className="fixed bottom-0 left-0 right-0 bg-blush-pink text-charcoal p-4 z-50 md:hidden">
+        <Link href="tel:+15616142857" className="flex items-center justify-center gap-2 font-medium tracking-wider">
           <Phone className="w-5 h-5" />
-          Call Now - Free Consultation
+          call now - free consultation
         </Link>
       </div>
     )
   }
 
   return (
-    <div className="fixed bottom-4 left-4 right-4 bg-[#20394c] text-white p-4 rounded-lg shadow-2xl z-50 md:max-w-md md:left-auto md:right-4">
+    <div className="fixed bottom-4 left-4 right-4 bg-charcoal text-cream p-4 rounded-lg shadow-2xl z-50 md:max-w-md md:left-auto md:right-4">
       <button
         onClick={() => setIsDismissed(true)}
-        className="absolute top-2 right-2 text-gray-300 hover:text-white"
+        className="absolute top-2 right-2 text-cream/60 hover:text-cream transition-colors"
       >
         <X className="w-4 h-4" />
       </button>
       
       <div className="pr-6">
-        <p className="text-sm font-medium mb-2">
-          Worried about your teen? Talk to someone now — it's free.
+        <p className="text-sm font-medium mb-2 tracking-wide">
+          worried about your teen? talk to someone now — it's free.
         </p>
         <Link href="tel:+15616142857" className="btn-primary">
           <Phone className="w-4 h-4" />
-          Call Now
+          call now
         </Link>
       </div>
     </div>

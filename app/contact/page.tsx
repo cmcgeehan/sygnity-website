@@ -1,38 +1,28 @@
-import type { Metadata } from 'next'
 import { Phone, Mail, MapPin, Clock } from 'lucide-react'
 import Link from 'next/link'
 
-export const metadata: Metadata = {
-  title: 'Contact Teen Therapy Florida - Free Consultation | Virtual Teen Counseling - Sygnity Wellness',
-  description: 'Contact Sygnity Wellness for a free teen therapy consultation in Florida. Call (561) 614-2857 for virtual teen anxiety, depression, and trauma therapy services.',
-  keywords: 'contact teen therapy Florida, free teen therapy consultation Florida, virtual teen therapy Florida contact, teen therapy phone number Florida, Florida teen counseling contact',
-  alternates: {
-    canonical: 'https://sygnityhealth.com/contact'
-  },
-  openGraph: {
-    title: 'Contact Teen Therapy Florida - Free Consultation | Sygnity Wellness',
-    description: 'Contact Sygnity Wellness for a free teen therapy consultation in Florida. Virtual teen counseling services.',
-    url: 'https://sygnityhealth.com/contact',
-  }
-}
-
-export default function ContactPage() {
+export default async function ContactPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ success?: string; error?: string }>
+}) {
+  const params = await searchParams
   return (
     <div className="pt-20">
-      <div className="section-padding bg-[#f5f1ec]">
+      <div className="section-padding bg-white">
         <div className="container-max">
           <div className="text-center mb-12">
-            <h1 className="text-4xl md:text-5xl font-bold text-[#20394c] mb-6">
-              Contact Teen Therapy Florida - Free Consultation
+            <h1 className="text-4xl md:text-5xl font-light text-charcoal mb-6 font-display tracking-wider small-caps">
+              contact teen therapy florida - free consultation
             </h1>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Ready to help your teen? Contact our Florida teen therapy team today. Call (561) 614-2857 for a free consultation about virtual teen anxiety, depression, and trauma counseling services.
+            <p className="text-xl text-charcoal/80 max-w-3xl mx-auto tracking-wide">
+              ready to help your teen? contact our florida teen therapy team today. call (561) 614-2857 for a free consultation about virtual teen anxiety, depression, and trauma counseling services.
             </p>
           </div>
         </div>
       </div>
 
-      <div className="section-padding">
+      <div className="section-padding bg-cream">
         <div className="container-max">
           <div className="grid lg:grid-cols-2 gap-12">
             <div>
@@ -58,8 +48,8 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-[#20394c]">Email</h3>
-                      <Link href="mailto:info@sygnity-wellness.com" className="text-lg text-gray-600 hover:underline">
-                        info@sygnity-wellness.com
+                      <Link href="mailto:chris.gamer@thisiswellness.com" className="text-lg text-gray-600 hover:underline">
+                        chris.gamer@thisiswellness.com
                       </Link>
                     </div>
                   </div>
@@ -107,7 +97,20 @@ export default function ContactPage() {
             <div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <h2 className="text-2xl font-bold text-[#20394c] mb-6">Send Us a Message</h2>
-                <form className="space-y-6">
+                
+                {params.success && (
+                  <div className="mb-6 p-4 bg-green-50 border border-green-200 rounded-lg">
+                    <p className="text-green-800">Thank you for your message. We will get back to you soon!</p>
+                  </div>
+                )}
+
+                {params.error && (
+                  <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-lg">
+                    <p className="text-red-800">Failed to send message. Please try again.</p>
+                  </div>
+                )}
+                
+                <form action="/api/contact" method="POST" className="space-y-6">
                   <div className="grid md:grid-cols-2 gap-4">
                     <div>
                       <label htmlFor="firstName" className="block text-sm font-medium text-gray-700 mb-2">

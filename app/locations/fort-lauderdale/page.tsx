@@ -3,16 +3,14 @@ import Link from 'next/link'
 import { Phone, CheckCircle, ArrowRight, MapPin } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Teen Therapy Fort Lauderdale Florida | Virtual Teen Counseling Fort Lauderdale - Sygnity Wellness',
-  description: 'Professional teen therapy in Fort Lauderdale, Florida. Virtual teen counseling services for Fort Lauderdale adolescents with anxiety, depression, and trauma. Online teen therapy Fort Lauderdale.',
-  keywords: 'Fort Lauderdale teen therapy, teen depression counseling Fort Lauderdale, virtual teen therapy Fort Lauderdale, Fort Lauderdale teen counseling, teen anxiety therapy Fort Lauderdale, online therapy Fort Lauderdale teenagers',
-  alternates: {
-    canonical: 'https://sygnityhealth.com/locations/fort-lauderdale'
-  },
+  title: 'Teen Therapy Fort Lauderdale Florida | Virtual Teen Counseling Fort Lauderdale - Avela Therapy',
+  description: 'Professional teen therapy in Fort Lauderdale, Florida. Virtual teen counseling services available throughout Broward County. Licensed therapists specializing in adolescent mental health.',
+  keywords: ['teen therapy fort lauderdale', 'virtual teen counseling fort lauderdale', 'adolescent therapy fort lauderdale', 'teen mental health fort lauderdale'],
+  canonical: 'https://avelatherapy.com/locations/fort-lauderdale',
   openGraph: {
-    title: 'Teen Therapy Fort Lauderdale Florida | Virtual Teen Counseling Fort Lauderdale',
-    description: 'Professional teen therapy in Fort Lauderdale, Florida. Virtual teen counseling services for Fort Lauderdale adolescents.',
-    url: 'https://sygnityhealth.com/locations/fort-lauderdale',
+    title: 'Teen Therapy Fort Lauderdale Florida | Virtual Teen Counseling Fort Lauderdale - Avela Therapy',
+    description: 'Professional teen therapy in Fort Lauderdale, Florida. Virtual teen counseling services available throughout Broward County.',
+    url: 'https://avelatherapy.com/locations/fort-lauderdale',
   }
 }
 
@@ -20,7 +18,7 @@ export default function FortLauderdaleTeenTherapyPage() {
   return (
     <div className="pt-20">
       {/* Hero Section */}
-      <div className="section-padding bg-gradient-to-br from-[#f5f1ec] to-white">
+      <div className="section-padding bg-white">
         <div className="container-max">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -77,7 +75,7 @@ export default function FortLauderdaleTeenTherapyPage() {
       </div>
 
       {/* Why Fort Lauderdale Families Choose Us */}
-      <div className="section-padding">
+      <div className="section-padding bg-cream">
         <div className="container-max">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-[#20394c] mb-4">
@@ -122,7 +120,7 @@ export default function FortLauderdaleTeenTherapyPage() {
       </div>
 
       {/* Fort Lauderdale-Specific Content */}
-      <div className="section-padding bg-[#f5f1ec]">
+      <div className="section-padding bg-white">
         <div className="container-max">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -342,19 +340,21 @@ export default function FortLauderdaleTeenTherapyPage() {
       {/* CTA Section */}
       <div className="section-padding">
         <div className="container-max">
-          <div className="bg-gradient-to-r from-[#20394c] to-[#2e4f64] rounded-3xl p-8 md:p-16 text-center text-white">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Ready to Help Your Fort Lauderdale Teen?
+          <div className="bg-gradient-to-r from-charcoal to-charcoal/90 rounded-3xl p-8 md:p-16 text-center text-cream">
+            <h2 className="text-3xl md:text-4xl font-light mb-4 font-display tracking-wider small-caps">
+              ready to help your fort lauderdale teen?
             </h2>
-            <p className="text-xl mb-8 opacity-90">
-              Get started with virtual teen therapy for your Fort Lauderdale adolescent today - no I-95 traffic required
+            <p className="text-xl mb-8 text-cream/80 tracking-wide">
+              get started with virtual teen therapy for your fort lauderdale adolescent today
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="tel:+15616142857" className="bg-[#ff6b6b] text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-[#ff5252] transition-colors">
-                Call for Free Consultation
+              <Link href="tel:+15616142857" className="btn-primary text-lg py-4 px-8">
+                <Phone className="w-5 h-5" />
+                call for free consultation
               </Link>
-              <Link href="/teen-depression" className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-[#20394c] transition-colors">
-                Learn About Depression Counseling
+              <Link href="/teen-depression" className="btn-secondary text-lg py-4 px-8">
+                <ArrowRight className="w-5 h-5" />
+                learn about depression therapy
               </Link>
             </div>
           </div>

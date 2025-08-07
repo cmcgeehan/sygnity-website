@@ -18,7 +18,7 @@ const blogPosts = {
     content: `
       <p>As a parent in Florida, you know your teenager better than anyone. You've watched them grow, celebrated their successes, and supported them through challenges. But adolescence brings unique complexities, and sometimes it can be difficult to distinguish between typical teenage behavior and signs that your teen might be struggling with their mental health.</p>
 
-      <p>At Sygnity Wellness, we work with families throughout Florida to provide support when teens are facing mental health challenges like <a href="/teen-anxiety">anxiety</a>, <a href="/teen-depression">depression</a>, and <a href="/teen-trauma">trauma</a>. Recognizing the warning signs early can make a significant difference in your teen's recovery and long-term wellbeing.</p>
+      <p>At Avela Therapy, we work with families throughout Florida to provide support when teens are facing mental health challenges like <a href="/teen-anxiety">anxiety</a>, <a href="/teen-depression">depression</a>, and <a href="/teen-trauma">trauma</a>. Our virtual therapy services make it convenient for families to access quality mental health care from anywhere in the state.</p>
 
       <p>Here are five key signs that may indicate your teenager could benefit from professional mental health support, along with practical guidance on how to respond and seek help.</p>
 
@@ -223,8 +223,8 @@ const blogPosts = {
         <li>Have better long-term mental health outcomes</li>
       </ul>
 
-      <h2>How Sygnity Wellness Can Help Your Florida Teen</h2>
-      <p>At Sygnity Wellness, we specialize in adolescent mental health and understand the unique challenges facing teenagers today. Our licensed therapists use evidence-based approaches to help teens develop healthy coping strategies and work through their challenges.</p>
+      <h2>How Avela Therapy Can Help Your Florida Teen</h2>
+      <p>At Avela Therapy, we specialize in adolescent mental health and understand the unique challenges facing teenagers today. Our licensed therapists use evidence-based approaches to help teens develop healthy coping skills and build resilience.</p>
 
       <h3>Our Services Include:</h3>
       <ul>
@@ -251,7 +251,7 @@ const blogPosts = {
         <li>Remember that recovery is possible with proper support</li>
       </ol>
 
-      <p>At Sygnity Wellness, we're here to support Florida families through these challenging times. Our virtual therapy services make it convenient to access quality mental health care from anywhere in the state. Contact us today for a free consultation to discuss how we can help your teenager and your family.</p>
+      <p>At Avela Therapy, we're here to support Florida families through these challenging times. Our virtual therapy services make it convenient to access quality mental health care from anywhere in the state. Contact us today for a free consultation to discuss how we can help your teenager and your family.</p>
 
       <p>Early intervention can make a significant difference in outcomes, so don't hesitate to reach out. Your teenager's mental health and your family's wellbeing are worth the investment in professional support.</p>
     `
@@ -267,7 +267,7 @@ const blogPosts = {
     content: `
       <p>Taking the step to call a therapist for the first time can feel overwhelming, especially when you're concerned about your teenager's mental health. Whether you're seeking <a href="/teen-anxiety">teen anxiety therapy in Florida</a>, <a href="/teen-depression">teen depression therapy</a>, or <a href="/teen-trauma">teen trauma therapy</a>, it's natural to feel nervous about what to expect from that initial consultation.</p>
 
-      <p>At Sygnity Wellness, we understand that making the first call for teen mental health support is often one of the hardest steps for parents. We want to make this process as comfortable and transparent as possible for Florida families seeking virtual therapy services for their teenagers.</p>
+      <p>At Avela Therapy, we understand that making the first call for teen mental health support is often one of the hardest steps for parents. We want to make this process as comfortable and transparent as possible for Florida families seeking virtual therapy services for their teenagers.</p>
 
       <p>Here's a comprehensive guide to what happens during your first therapy consultation, how to prepare, and what comes next in your teen's mental health journey.</p>
 
@@ -550,7 +550,7 @@ const blogPosts = {
       <h2>Taking the Courageous First Step</h2>
       <p>Making that first call for your teenager's mental health is one of the most courageous and loving things you can do as a parent. It demonstrates your commitment to your teen's wellbeing and your recognition that professional support can make a significant difference.</p>
 
-      <p>At Sygnity Wellness, we're honored to be part of your family's journey toward better mental health. Our virtual therapy services make it convenient for Florida families to access quality teen mental health care from anywhere in the state.</p>
+      <p>At Avela Therapy, we're honored to be part of your family's journey toward better mental health. Our virtual therapy services make it convenient for Florida families to access quality teen mental health care.</p>
 
       <p>Remember, this first call is just the beginning – healing and growth take time, but with the right support, positive change is not only possible but probable. Your teenager deserves support, and you deserve to feel confident and informed about the treatment process.</p>
 
@@ -568,7 +568,7 @@ const blogPosts = {
     content: `
       <p>As a parent of a teenager in Florida, you've likely witnessed the emotional ups and downs that come with adolescence. But how do you know when your teen's moodiness crosses the line from typical teenage behavior into something more serious like clinical anxiety or depression? Understanding the difference is crucial for getting your teen the help they need.</p>
 
-      <p>At Sygnity Wellness, we specialize in <a href="/teen-anxiety">teen anxiety therapy in Florida</a> and <a href="/teen-depression">teen depression therapy in Florida</a>, providing virtual mental health services that make treatment accessible and convenient for families throughout the state. This comprehensive guide will help you understand teen anxiety and depression, recognize the warning signs, and know when to seek professional help.</p>
+      <p>At Avela Therapy, we specialize in <a href="/teen-anxiety">teen anxiety therapy in Florida</a> and <a href="/teen-depression">teen depression therapy in Florida</a>, providing virtual mental health services that make it convenient for families to access quality care.</p>
 
       <h2>Understanding Normal Teen Emotions vs. Mental Health Concerns</h2>
       
@@ -775,13 +775,13 @@ const blogPosts = {
       <p>Many teens who receive treatment for anxiety and depression go on to lead healthy, successful lives. They learn valuable coping skills, develop resilience, and often become more empathetic and self-aware as a result of their experiences.</p>
 
       <h2>Finding Help in Florida</h2>
-      <p>If you're searching for "help my depressed teenager Florida" or "teen anxiety therapy near me," Sygnity Wellness is here to support your family. Our licensed therapists specialize in adolescent mental health and offer convenient virtual therapy sessions throughout Florida.</p>
+      <p>If you're searching for "help my depressed teenager Florida" or "teen anxiety therapy near me," Avela Therapy is here to support your family. Our licensed therapists specialize in adolescent mental health and offer convenient virtual therapy sessions throughout Florida.</p>
 
       <p>We understand the unique challenges facing Florida teens and families, from academic pressure to social media influences to the ongoing impacts of recent global events. Our <a href="/teen-anxiety">virtual teen anxiety therapy</a> and <a href="/teen-depression">teen depression therapy</a> services are designed to meet teens where they are and provide the support they need to thrive.</p>
 
       <p>Remember, seeking help is a sign of strength, not weakness. By taking action to address your teen's mental health concerns, you're giving them the tools they need for a brighter, healthier future.</p>
 
-      <p>Contact us today for a free consultation to discuss how we can help your teenager overcome anxiety, depression, or both. Together, we can help your teen develop the skills and resilience they need to navigate adolescence and beyond with confidence and hope.</p>
+      <p>Contact us today for a free consultation to discuss how we can help your teenager overcome anxiety, depression, or both. Together, we can help your teen develop the skills and resilience needed to navigate adolescence and beyond with confidence and hope.</p>
     `
   },
   'family-therapy-benefits': {
@@ -795,7 +795,7 @@ const blogPosts = {
     content: `
       <p>When your teenager is struggling with mental health challenges like anxiety, depression, or trauma, it affects the entire family. Family dynamics shift, communication becomes strained, and everyone feels the stress. This is where family therapy becomes not just helpful, but essential for healing and growth.</p>
 
-      <p>At Sygnity Wellness, we understand that effective treatment for teen mental health issues often requires a family-centered approach. Our virtual family therapy sessions in Florida help families navigate these challenging times together, building stronger relationships and creating more supportive home environments.</p>
+      <p>At Avela Therapy, we understand that effective treatment for teen mental health issues often requires a family-centered approach. Our virtual family therapy sessions in Florida help families navigate these challenging times together, building stronger relationships and creating more supportive home environments.</p>
 
       <h2>What is Family Therapy?</h2>
       <p>Family therapy, also known as family counseling or family systems therapy, is a type of psychotherapy that focuses on improving relationships and resolving conflicts within the family unit. Rather than treating individual problems in isolation, family therapy recognizes that family members are interconnected and that changes in one person affect the entire family system.</p>
@@ -1115,7 +1115,7 @@ const blogPosts = {
       <h2>Taking the Next Step</h2>
       <p>If your family is struggling with the challenges that come with teen <a href="/teen-anxiety">anxiety</a>, <a href="/teen-depression">depression</a>, or <a href="/teen-trauma">trauma</a>, family therapy can provide the support and tools you need to heal and grow together.</p>
 
-      <p>At Sygnity Wellness, our experienced family therapists understand the unique challenges facing Florida families. We provide virtual family therapy sessions that make it convenient for your entire family to participate, regardless of your location within the state.</p>
+      <p>At Avela Therapy, our experienced family therapists understand the unique challenges facing Florida families. We provide virtual family therapy sessions that make it convenient for your entire family to participate.</p>
 
       <p>Don't wait for things to get worse. Family therapy is most effective when families seek help early. Contact us today for a free consultation to discuss how family therapy can strengthen your relationships and support your teen's mental health journey.</p>
 
@@ -1805,7 +1805,7 @@ const blogPosts = {
       <h3>For Specialized Teen Mental Health Services</h3>
       <p>If you're looking for specialized <a href="/teen-anxiety">teen anxiety therapy</a>, <a href="/teen-depression">teen depression treatment</a>, or <a href="/teen-trauma">teen trauma therapy</a> in Florida, consider virtual therapy options that can provide convenient, effective treatment from anywhere in the state.</p>
 
-      <p>At Sygnity Wellness, we understand the unique challenges facing Florida teens and families. Our virtual therapy services are designed to provide accessible, high-quality mental health care that fits into your family's busy schedule while addressing the specific needs of teenagers struggling with anxiety, depression, and trauma.</p>
+      <p>At Avela Therapy, we understand the unique challenges facing Florida teens and families. Our virtual therapy services are designed to provide accessible, high-quality mental health care that fits into your family's busy schedule while addressing the specific needs of teenagers struggling with anxiety, depression, and trauma.</p>
 
       <h2>Remember: You're Not Alone</h2>
       
@@ -1830,7 +1830,7 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
   
   if (!post) {
     return {
-      title: 'Post Not Found - Sygnity Wellness Blog'
+      title: 'Post Not Found - Avela Therapy Blog'
     }
   }
 
@@ -1853,20 +1853,20 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
   }
 
   return {
-    title: `${post.title} - Sygnity Wellness`,
+    title: `${post.title} - Avela Therapy`,
     description: post.excerpt,
     keywords: getKeywords(slug),
     alternates: {
-      canonical: `https://sygnityhealth.com/blog/${slug}`
+      canonical: `https://avelatherapy.com/blog/${slug}`
     },
     openGraph: {
-      title: post.title,
+      title: `${post.title} - Avela Therapy`,
       description: post.excerpt,
       type: 'article',
       publishedTime: post.date,
       authors: [post.author],
-      url: `https://sygnityhealth.com/blog/${slug}`,
-      siteName: 'Sygnity Wellness',
+      url: `https://avelatherapy.com/blog/${slug}`,
+      siteName: 'Avela Therapy',
     },
     twitter: {
       card: 'summary_large_image',

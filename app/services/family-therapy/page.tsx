@@ -3,16 +3,14 @@ import Link from 'next/link'
 import { Phone, CheckCircle, ArrowRight, Users, Heart, Home, Shield, Target, MessageCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Family Therapy Florida | Virtual Family Counseling with Teen Focus - Sygnity Wellness',
-  description: 'Family therapy Florida specializing in families with teenagers. Virtual family counseling to improve communication, resolve conflicts, and strengthen relationships. Licensed family therapists online.',
-  keywords: 'family therapy Florida, family counseling Florida, virtual family therapy Florida, teen family therapy Florida, family therapy with teenagers Florida, family counseling services Florida',
-  alternates: {
-    canonical: 'https://sygnityhealth.com/services/family-therapy'
-  },
+  title: 'Family Therapy Florida | Virtual Family Counseling with Teen Focus - Avela Therapy',
+  description: 'Professional family therapy in Florida. Virtual family counseling with focus on teen mental health. Licensed therapists helping families navigate challenges together.',
+  keywords: ['family therapy', 'virtual family counseling', 'teen family therapy', 'family counseling florida'],
+  canonical: 'https://avelatherapy.com/services/family-therapy',
   openGraph: {
-    title: 'Family Therapy Florida | Virtual Family Counseling with Teen Focus',
-    description: 'Family therapy Florida specializing in families with teenagers. Virtual family counseling to improve communication and strengthen relationships.',
-    url: 'https://sygnityhealth.com/services/family-therapy',
+    title: 'Family Therapy Florida | Virtual Family Counseling with Teen Focus - Avela Therapy',
+    description: 'Professional family therapy in Florida. Virtual family counseling with focus on teen mental health.',
+    url: 'https://avelatherapy.com/services/family-therapy',
   }
 }
 

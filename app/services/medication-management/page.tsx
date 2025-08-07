@@ -3,16 +3,14 @@ import Link from 'next/link'
 import { Phone, CheckCircle, ArrowRight, Pill, Brain, Shield, Heart, Target, Clock } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Medication Management Florida | Psychiatric Medication Services - Sygnity Wellness',
-  description: 'Professional medication management in Florida for mental health conditions. Virtual psychiatric medication evaluation and ongoing monitoring by licensed providers.',
-  keywords: 'medication management Florida, psychiatric medication Florida, virtual medication management Florida, psychiatric medication evaluation Florida, medication monitoring Florida, psychiatry medication services Florida',
-  alternates: {
-    canonical: 'https://sygnityhealth.com/services/medication-management'
-  },
+  title: 'Medication Management Florida | Psychiatric Medication Services - Avela Therapy',
+  description: 'Professional medication management in Florida. Psychiatric medication services for teens and adults. Licensed psychiatrists providing virtual medication consultations.',
+  keywords: ['medication management', 'psychiatric medication', 'virtual psychiatry', 'medication consultation'],
+  canonical: 'https://avelatherapy.com/services/medication-management',
   openGraph: {
-    title: 'Medication Management Florida | Psychiatric Medication Services',
-    description: 'Professional medication management in Florida for mental health conditions. Virtual psychiatric medication evaluation and monitoring.',
-    url: 'https://sygnityhealth.com/services/medication-management',
+    title: 'Medication Management Florida | Psychiatric Medication Services - Avela Therapy',
+    description: 'Professional medication management in Florida. Psychiatric medication services for teens and adults.',
+    url: 'https://avelatherapy.com/services/medication-management',
   }
 }
 

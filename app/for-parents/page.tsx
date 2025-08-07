@@ -3,36 +3,34 @@ import { Phone, Heart, Shield, Users, CheckCircle, AlertCircle, MessageCircle, S
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Help My Teen with Depression Florida - Virtual Therapy for Reluctant Teens | Sygnity Wellness',
-  description: 'Help your depressed teenager in Florida with virtual therapy. Expert support when your teen won\'t talk about depression or anxiety. Call (561) 614-2857 for help for anxious teenagers.',
-  keywords: 'help my teen with depression Florida, help my depressed teenager Florida, my teen is depressed and won\'t talk Florida, help for anxious teenager Florida, virtual teen therapy Florida, my teen won\'t talk Florida',
-  alternates: {
-    canonical: 'https://sygnityhealth.com/for-parents'
-  },
+  title: 'Help My Teen with Depression Florida - Virtual Therapy for Reluctant Teens | Avela Therapy',
+  description: 'Help for parents with depressed teenagers in Florida. Virtual therapy for reluctant teens. Professional guidance and support for families dealing with adolescent mental health challenges.',
+  keywords: ['help my teen with depression', 'reluctant teen therapy', 'virtual teen counseling', 'teen mental health support'],
+  canonical: 'https://avelatherapy.com/for-parents',
   openGraph: {
-    title: 'Help My Teen with Depression Florida - Virtual Therapy for Parents',
-    description: 'Help your depressed teenager in Florida with virtual therapy. Expert support when your teen won\'t talk.',
-    url: 'https://sygnityhealth.com/for-parents',
+    title: 'Help My Teen with Depression Florida - Virtual Therapy for Reluctant Teens | Avela Therapy',
+    description: 'Help for parents with depressed teenagers in Florida. Virtual therapy for reluctant teens.',
+    url: 'https://avelatherapy.com/for-parents',
   }
 }
 
 export default function ForParentsPage() {
   return (
     <div className="pt-20">
-      <div className="section-padding bg-[#f5f1ec]">
+      <div className="section-padding bg-white">
         <div className="container-max">
           <div className="text-center mb-12">
-            <h1 className="text-4xl md:text-5xl font-bold text-[#20394c] mb-6">
-              Help My Teen with Depression Florida
+            <h1 className="text-4xl md:text-5xl font-light text-charcoal mb-6 font-display tracking-wider small-caps">
+              help my teen with depression florida
             </h1>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              "Help my teen with depression Florida" - we hear this from concerned parents daily. When your teen is depressed and won't talk, virtual teen therapy in Florida can help. You're not alone, and expert help is available.
+            <p className="text-xl text-charcoal/80 max-w-3xl mx-auto tracking-wide">
+              "help my teen with depression florida" - we hear this from concerned parents daily. when your teen is depressed and won't talk, virtual teen therapy in florida can help. you're not alone, and expert help is available.
             </p>
           </div>
         </div>
       </div>
 
-      <div className="section-padding">
+      <div className="section-padding bg-cream">
         <div className="container-max">
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
             <div>
@@ -43,7 +41,7 @@ export default function ForParentsPage() {
                 As a Florida parent, you've noticed the changes. Maybe your once-happy teenager has become withdrawn, angry, or anxious. Perhaps they're struggling with school, friends, or displaying concerning behaviors. When your teen is depressed and won't talk about it, these signs can be overwhelming - but recognizing them is the first step toward getting help.
               </p>
               <p className="text-lg text-gray-600 mb-8">
-                At Sygnity Wellness, we specialize in helping Florida families when teens are reluctant to engage. Our virtual teen therapy approach makes it easier for anxious teenagers to open up from the comfort of home. We believe in partnering with parents to support your teen's mental health journey, understanding that every Florida family is unique.
+                At Avela Therapy, we specialize in helping Florida families when teens are reluctant to engage. Our virtual teen therapy approach makes it easier for anxious teenagers to open up from the comfort of home. We believe in partnering with parents to support your teen's mental health journey, understanding that every Florida family is unique.
               </p>
               <Link href="tel:+15616142857" className="btn-primary inline-flex">
                 <Phone className="w-5 h-5" />

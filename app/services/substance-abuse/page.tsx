@@ -3,16 +3,14 @@ import Link from 'next/link'
 import { Phone, CheckCircle, ArrowRight, Heart, Shield, Users, Target, AlertCircle, Brain } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Substance Use Treatment Florida | Teen & Adult Addiction Therapy - Sygnity Wellness',
-  description: 'Comprehensive substance use treatment in Florida for teens and adults. Virtual addiction therapy, recovery support, and family counseling for substance abuse disorders.',
-  keywords: 'substance use treatment Florida, addiction therapy Florida, teen substance abuse Florida, virtual addiction treatment Florida, substance abuse counseling Florida, recovery therapy Florida',
-  alternates: {
-    canonical: 'https://sygnityhealth.com/services/substance-abuse'
-  },
+  title: 'Substance Use Treatment Florida | Teen & Adult Addiction Therapy - Avela Therapy',
+  description: 'Professional substance use treatment in Florida. Teen and adult addiction therapy services. Licensed therapists providing virtual addiction counseling and recovery support.',
+  keywords: ['substance use treatment', 'addiction therapy', 'teen addiction', 'virtual addiction counseling'],
+  canonical: 'https://avelatherapy.com/services/substance-abuse',
   openGraph: {
-    title: 'Substance Use Treatment Florida | Teen & Adult Addiction Therapy',
-    description: 'Comprehensive substance use treatment in Florida for teens and adults. Virtual addiction therapy and recovery support.',
-    url: 'https://sygnityhealth.com/services/substance-abuse',
+    title: 'Substance Use Treatment Florida | Teen & Adult Addiction Therapy - Avela Therapy',
+    description: 'Professional substance use treatment in Florida. Teen and adult addiction therapy services.',
+    url: 'https://avelatherapy.com/services/substance-abuse',
   }
 }
 

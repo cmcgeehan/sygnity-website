@@ -4,16 +4,14 @@ import { ServiceCard } from '@/components/service-card'
 import { Brain, Users, Pill, Heart } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Teen Therapy Services Florida | Virtual Anxiety & Depression Treatment - Sygnity Wellness',
-  description: 'Virtual teen therapy services in Florida specializing in anxiety, depression, trauma, and family therapy. Professional adolescent mental health treatment online.',
-  keywords: 'teen therapy services Florida, virtual teen therapy Florida, teen anxiety treatment Florida, teen depression counseling Florida, adolescent therapy Florida',
-  alternates: {
-    canonical: 'https://sygnityhealth.com/services'
-  },
+  title: 'Teen Therapy Services Florida | Virtual Anxiety & Depression Treatment - Avela Therapy',
+  description: 'Professional teen therapy services in Florida. Virtual anxiety, depression, and trauma treatment for teenagers. Licensed therapists specializing in adolescent mental health.',
+  keywords: ['teen therapy services', 'virtual teen counseling', 'teen anxiety treatment', 'teen depression therapy', 'adolescent mental health'],
+  canonical: 'https://avelatherapy.com/services',
   openGraph: {
-    title: 'Teen Therapy Services Florida | Virtual Mental Health Treatment',
-    description: 'Virtual teen therapy services in Florida specializing in anxiety, depression, trauma, and family therapy.',
-    url: 'https://sygnityhealth.com/services',
+    title: 'Teen Therapy Services Florida | Virtual Anxiety & Depression Treatment - Avela Therapy',
+    description: 'Professional teen therapy services in Florida. Virtual anxiety, depression, and trauma treatment for teenagers.',
+    url: 'https://avelatherapy.com/services',
   }
 }
 
@@ -47,23 +45,23 @@ const services = [
 export default function ServicesPage() {
   return (
     <div className="pt-20">
-      <div className="section-padding bg-[#f5f1ec]">
+      <div className="section-padding bg-white">
         <div className="container-max">
           <div className="text-center mb-12">
-            <h1 className="text-4xl md:text-5xl font-bold text-[#20394c] mb-6">
+            <h1 className="text-4xl md:text-5xl font-light text-charcoal mb-6 font-display tracking-wider small-caps">
               Our Services
             </h1>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-soft-gray max-w-3xl mx-auto tracking-wide">
               Comprehensive mental health services tailored to meet the unique needs of adolescents, adults, and families in Florida. 
-              We also offer specialized <Link href="/teen-anxiety" className="text-[#20394c] hover:text-[#6cbf84] font-semibold underline">teen anxiety</Link>, 
-              <Link href="/teen-depression" className="text-[#20394c] hover:text-[#6cbf84] font-semibold underline">depression</Link>, and 
-              <Link href="/teen-trauma" className="text-[#20394c] hover:text-[#6cbf84] font-semibold underline">trauma therapy</Link> services.
+              We also offer specialized <Link href="/teen-anxiety" className="text-dusty-blue hover:text-blush-pink font-medium underline transition-colors tracking-wider all-lowercase">teen anxiety</Link>, 
+              <Link href="/teen-depression" className="text-dusty-blue hover:text-blush-pink font-medium underline transition-colors tracking-wider all-lowercase">depression</Link>, and 
+              <Link href="/teen-trauma" className="text-dusty-blue hover:text-blush-pink font-medium underline transition-colors tracking-wider all-lowercase">trauma therapy</Link> services.
             </p>
           </div>
         </div>
       </div>
 
-      <div className="section-padding">
+      <div className="section-padding bg-cream">
         <div className="container-max">
           <div className="grid md:grid-cols-2 gap-8">
             {services.map((service, index) => (
@@ -74,53 +72,53 @@ export default function ServicesPage() {
           {/* Additional Services Section */}
           <div className="mt-16">
             <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-[#20394c] mb-4">
+              <h2 className="text-3xl md:text-4xl font-light text-charcoal mb-4 font-display tracking-wider small-caps">
                 Specialized Teen Mental Health Services
               </h2>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              <p className="text-xl text-soft-gray max-w-3xl mx-auto tracking-wide">
                 In addition to our core services, we offer specialized therapy for common teen mental health conditions
               </p>
             </div>
 
             <div className="grid md:grid-cols-3 gap-8">
-              <div className="bg-white p-6 rounded-xl shadow-lg">
-                <h3 className="text-xl font-bold text-[#20394c] mb-4">
-                  <Link href="/teen-anxiety" className="hover:text-[#6cbf84] transition-colors">
+              <div className="card p-6 rounded-xl">
+                <h3 className="text-xl font-medium text-charcoal mb-4 font-display tracking-wider small-caps">
+                  <Link href="/teen-anxiety" className="hover:text-dusty-blue transition-colors">
                     Teen Anxiety Therapy
                   </Link>
                 </h3>
-                <p className="text-gray-600 mb-4">
+                <p className="text-soft-gray mb-4 tracking-wide">
                   Specialized virtual therapy for teens struggling with anxiety disorders, social anxiety, panic attacks, and general anxiety.
                 </p>
-                <Link href="/teen-anxiety" className="text-[#ff6b6b] font-semibold hover:underline">
+                <Link href="/teen-anxiety" className="text-blush-pink font-medium hover:text-dusty-blue transition-colors tracking-wider all-lowercase">
                   Learn More →
                 </Link>
               </div>
 
-              <div className="bg-white p-6 rounded-xl shadow-lg">
-                <h3 className="text-xl font-bold text-[#20394c] mb-4">
-                  <Link href="/teen-depression" className="hover:text-[#6cbf84] transition-colors">
+              <div className="card p-6 rounded-xl">
+                <h3 className="text-xl font-medium text-charcoal mb-4 font-display tracking-wider small-caps">
+                  <Link href="/teen-depression" className="hover:text-dusty-blue transition-colors">
                     Teen Depression Therapy
                   </Link>
                 </h3>
-                <p className="text-gray-600 mb-4">
+                <p className="text-soft-gray mb-4 tracking-wide">
                   Evidence-based depression counseling for teenagers experiencing persistent sadness, hopelessness, and mood challenges.
                 </p>
-                <Link href="/teen-depression" className="text-[#ff6b6b] font-semibold hover:underline">
+                <Link href="/teen-depression" className="text-blush-pink font-medium hover:text-dusty-blue transition-colors tracking-wider all-lowercase">
                   Learn More →
                 </Link>
               </div>
 
-              <div className="bg-white p-6 rounded-xl shadow-lg">
-                <h3 className="text-xl font-bold text-[#20394c] mb-4">
-                  <Link href="/teen-trauma" className="hover:text-[#6cbf84] transition-colors">
+              <div className="card p-6 rounded-xl">
+                <h3 className="text-xl font-medium text-charcoal mb-4 font-display tracking-wider small-caps">
+                  <Link href="/teen-trauma" className="hover:text-dusty-blue transition-colors">
                     Teen Trauma Therapy
                   </Link>
                 </h3>
-                <p className="text-gray-600 mb-4">
+                <p className="text-soft-gray mb-4 tracking-wide">
                   Specialized EMDR and trauma-focused therapy to help teens heal from traumatic experiences and PTSD.
                 </p>
-                <Link href="/teen-trauma" className="text-[#ff6b6b] font-semibold hover:underline">
+                <Link href="/teen-trauma" className="text-blush-pink font-medium hover:text-dusty-blue transition-colors tracking-wider all-lowercase">
                   Learn More →
                 </Link>
               </div>
@@ -128,23 +126,23 @@ export default function ServicesPage() {
           </div>
 
           {/* Location Services */}
-          <div className="mt-16 bg-[#f5f1ec] rounded-2xl p-8">
+          <div className="mt-16 bg-[#F3E7DA] rounded-2xl p-8">
             <div className="text-center mb-8">
-              <h2 className="text-2xl md:text-3xl font-bold text-[#20394c] mb-4">
+              <h2 className="text-2xl md:text-3xl font-light text-charcoal mb-4 font-display tracking-wider small-caps">
                 Serving Florida Families
               </h2>
-              <p className="text-gray-600 max-w-2xl mx-auto">
+              <p className="text-soft-gray max-w-2xl mx-auto tracking-wide">
                 Our virtual therapy services are available throughout Florida, with specialized local understanding for major metropolitan areas.
               </p>
             </div>
             <div className="flex flex-wrap justify-center gap-6">
-              <Link href="/locations/miami" className="bg-white px-6 py-3 rounded-lg shadow-md hover:shadow-lg transition-shadow text-[#20394c] font-semibold hover:text-[#6cbf84]">
+              <Link href="/locations/miami" className="bg-white/50 backdrop-blur-sm px-6 py-3 rounded-lg shadow-sm hover:shadow-md transition-all text-charcoal font-medium hover:text-dusty-blue tracking-wider all-lowercase">
                 Miami Teen Therapy
               </Link>
-              <Link href="/locations/west-palm-beach" className="bg-white px-6 py-3 rounded-lg shadow-md hover:shadow-lg transition-shadow text-[#20394c] font-semibold hover:text-[#6cbf84]">
+              <Link href="/locations/west-palm-beach" className="bg-white/50 backdrop-blur-sm px-6 py-3 rounded-lg shadow-sm hover:shadow-md transition-all text-charcoal font-medium hover:text-dusty-blue tracking-wider all-lowercase">
                 West Palm Beach Therapy
               </Link>
-              <Link href="/" className="bg-[#20394c] text-white px-6 py-3 rounded-lg hover:bg-[#2e4f64] transition-colors font-semibold">
+              <Link href="/" className="bg-dusty-blue text-white px-6 py-3 rounded-lg hover:bg-dusty-blue/90 transition-colors font-medium tracking-wider all-lowercase">
                 View All Locations
               </Link>
             </div>

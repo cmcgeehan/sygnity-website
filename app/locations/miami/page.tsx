@@ -3,16 +3,14 @@ import Link from 'next/link'
 import { Phone, CheckCircle, ArrowRight, MapPin } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Teen Therapy Miami Florida | Virtual Teen Counseling Miami - Sygnity Wellness',
-  description: 'Professional teen therapy in Miami, Florida. Virtual teen counseling services for Miami adolescents with anxiety, depression, and trauma. Online teen therapy Miami.',
-  keywords: 'Miami teen therapy, teen depression therapy Miami, virtual teen therapy Miami, Miami teen counseling, teen anxiety therapy Miami, online therapy Miami teenagers',
-  alternates: {
-    canonical: 'https://sygnityhealth.com/locations/miami'
-  },
+  title: 'Teen Therapy Miami Florida | Virtual Teen Counseling Miami - Avela Therapy',
+  description: 'Professional teen therapy in Miami, Florida. Virtual teen counseling services available throughout Miami-Dade County. Licensed therapists specializing in adolescent mental health.',
+  keywords: ['teen therapy miami', 'virtual teen counseling miami', 'adolescent therapy miami', 'teen mental health miami'],
+  canonical: 'https://avelatherapy.com/locations/miami',
   openGraph: {
-    title: 'Teen Therapy Miami Florida | Virtual Teen Counseling Miami',
-    description: 'Professional teen therapy in Miami, Florida. Virtual teen counseling services for Miami adolescents.',
-    url: 'https://sygnityhealth.com/locations/miami',
+    title: 'Teen Therapy Miami Florida | Virtual Teen Counseling Miami - Avela Therapy',
+    description: 'Professional teen therapy in Miami, Florida. Virtual teen counseling services available throughout Miami-Dade County.',
+    url: 'https://avelatherapy.com/locations/miami',
   }
 }
 
@@ -20,7 +18,7 @@ export default function MiamiTeenTherapyPage() {
   return (
     <div className="pt-20">
       {/* Hero Section */}
-      <div className="section-padding bg-gradient-to-br from-[#f5f1ec] to-white">
+      <div className="section-padding bg-white">
         <div className="container-max">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -77,7 +75,7 @@ export default function MiamiTeenTherapyPage() {
       </div>
 
       {/* Why Miami Families Choose Us */}
-      <div className="section-padding">
+      <div className="section-padding bg-cream">
         <div className="container-max">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-[#20394c] mb-4">
@@ -122,7 +120,7 @@ export default function MiamiTeenTherapyPage() {
       </div>
 
       {/* Miami-Specific Content */}
-      <div className="section-padding bg-[#f5f1ec]">
+      <div className="section-padding bg-white">
         <div className="container-max">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -195,19 +193,21 @@ export default function MiamiTeenTherapyPage() {
       {/* CTA Section */}
       <div className="section-padding">
         <div className="container-max">
-          <div className="bg-gradient-to-r from-[#20394c] to-[#2e4f64] rounded-3xl p-8 md:p-16 text-center text-white">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Ready to Help Your Miami Teen?
+          <div className="bg-gradient-to-r from-charcoal to-charcoal/90 rounded-3xl p-8 md:p-16 text-center text-cream">
+            <h2 className="text-3xl md:text-4xl font-light mb-4 font-display tracking-wider small-caps">
+              ready to help your miami teen?
             </h2>
-            <p className="text-xl mb-8 opacity-90">
-              Get started with virtual teen therapy for your Miami adolescent today
+            <p className="text-xl mb-8 text-cream/80 tracking-wide">
+              get started with virtual teen therapy for your miami adolescent today
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="tel:+15616142857" className="bg-[#ff6b6b] text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-[#ff5252] transition-colors">
-                Call for Free Consultation
+              <Link href="tel:+15616142857" className="btn-primary text-lg py-4 px-8">
+                <Phone className="w-5 h-5" />
+                call for free consultation
               </Link>
-              <Link href="/teen-depression" className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-[#20394c] transition-colors">
-                Learn About Depression Therapy
+              <Link href="/teen-depression" className="btn-secondary text-lg py-4 px-8">
+                <ArrowRight className="w-5 h-5" />
+                learn about depression therapy
               </Link>
             </div>
           </div>

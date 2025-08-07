@@ -14,33 +14,32 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  title: 'Teen Therapy Florida | Virtual Teen Anxiety & Depression Treatment - Sygnity Wellness',
-  description: 'Virtual teen therapy in Florida specializing in anxiety, depression, and trauma treatment. Help your teen with professional online counseling. Free consultation available.',
-  keywords: 'teen therapy Florida, virtual teen therapy Florida, teen anxiety therapy Florida, teen depression therapy Florida, online teen counseling Florida, help my teen with depression Florida',
-  authors: [{ name: 'Sygnity Wellness Team' }],
-  robots: 'index, follow',
-  alternates: {
-    canonical: 'https://sygnityhealth.com/'
-  },
+  title: 'Teen Therapy Florida | Virtual Teen Anxiety & Depression Treatment - Avela Therapy',
+  description: 'Professional teen therapy services in Florida. Virtual anxiety, depression, and trauma treatment for teenagers. Licensed therapists specializing in adolescent mental health.',
+  authors: [{ name: 'Avela Therapy Team' }],
+  keywords: ['teen therapy florida', 'virtual teen counseling', 'teen anxiety therapy', 'teen depression treatment', 'adolescent mental health'],
+  canonical: 'https://avelatherapy.com/',
   openGraph: {
-    title: 'Teen Therapy Florida | Virtual Teen Anxiety & Depression Treatment',
-    description: 'Virtual teen therapy in Florida specializing in anxiety, depression, and trauma treatment. Free consultation available.',
     type: 'website',
     locale: 'en_US',
-    url: 'https://sygnityhealth.com/',
-    siteName: 'Sygnity Wellness',
-    images: [{
-      url: 'https://sygnityhealth.com/og-image.jpg',
-      width: 1200,
-      height: 630,
-      alt: 'Sygnity Wellness - Teen Therapy Florida'
-    }]
+    url: 'https://avelatherapy.com/',
+    siteName: 'Avela Therapy',
+    title: 'Teen Therapy Florida | Virtual Teen Anxiety & Depression Treatment - Avela Therapy',
+    description: 'Professional teen therapy services in Florida. Virtual anxiety, depression, and trauma treatment for teenagers.',
+    images: [
+      {
+        url: 'https://avelatherapy.com/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Avela Therapy - Teen Therapy Florida'
+      }
+    ]
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Teen Therapy Florida | Virtual Teen Anxiety & Depression Treatment',
-    description: 'Virtual teen therapy in Florida specializing in anxiety, depression, and trauma treatment.',
-    images: ['https://sygnityhealth.com/og-image.jpg']
+    title: 'Teen Therapy Florida | Virtual Teen Anxiety & Depression Treatment - Avela Therapy',
+    description: 'Professional teen therapy services in Florida. Virtual anxiety, depression, and trauma treatment for teenagers.',
+    images: ['https://avelatherapy.com/og-image.jpg']
   },
   other: {
     'geo.region': 'US-FL',
@@ -60,9 +59,9 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.svg" />
-        <link rel="icon" type="image/svg+xml" sizes="any" href="/favicon.svg" />
+        <link rel="icon" href="/avelaWordmark.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/avelaWordmark.png" />
+        <link rel="icon" type="image/png" sizes="any" href="/avelaWordmark.png" />
         <link rel="manifest" href="/site.webmanifest" />
         <script 
           type="application/ld+json" 
@@ -70,11 +69,11 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "MedicalBusiness",
-              "name": "Sygnity Wellness",
+              "name": "Avela Therapy",
               "description": "Virtual teen therapy in Florida specializing in anxiety, depression, and trauma treatment",
-              "url": "https://sygnityhealth.com",
-              "logo": "https://sygnityhealth.com/logo.png",
-              "image": "https://sygnityhealth.com/og-image.jpg",
+              "url": "https://avelatherapy.com",
+              "logo": "https://avelatherapy.com/avelaWordmark.png",
+              "image": "https://avelatherapy.com/og-image.jpg",
               "telephone": "+1-XXX-XXX-XXXX",
               "address": {
                 "@type": "PostalAddress",
