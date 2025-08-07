@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Substance Use Treatment Florida | Teen & Adult Addiction Therapy - Avela Therapy',
   description: 'Professional substance use treatment in Florida. Teen and adult addiction therapy services. Licensed therapists providing virtual addiction counseling and recovery support.',
   keywords: ['substance use treatment', 'addiction therapy', 'teen addiction', 'virtual addiction counseling'],
-  canonical: 'https://avelatherapy.com/services/substance-abuse',
+
   openGraph: {
     title: 'Substance Use Treatment Florida | Teen & Adult Addiction Therapy - Avela Therapy',
     description: 'Professional substance use treatment in Florida. Teen and adult addiction therapy services.',

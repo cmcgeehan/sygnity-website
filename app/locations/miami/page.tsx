@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Teen Therapy Miami Florida | Virtual Teen Counseling Miami - Avela Therapy',
   description: 'Professional teen therapy in Miami, Florida. Virtual teen counseling services available throughout Miami-Dade County. Licensed therapists specializing in adolescent mental health.',
   keywords: ['teen therapy miami', 'virtual teen counseling miami', 'adolescent therapy miami', 'teen mental health miami'],
-  canonical: 'https://avelatherapy.com/locations/miami',
+
   openGraph: {
     title: 'Teen Therapy Miami Florida | Virtual Teen Counseling Miami - Avela Therapy',
     description: 'Professional teen therapy in Miami, Florida. Virtual teen counseling services available throughout Miami-Dade County.',

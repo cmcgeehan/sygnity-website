@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Teen Therapy Orlando Florida | Virtual Teen Counseling Orlando - Avela Therapy',
   description: 'Professional teen therapy in Orlando, Florida. Virtual teen counseling services available throughout Orange County. Licensed therapists specializing in adolescent mental health.',
   keywords: ['teen therapy orlando', 'virtual teen counseling orlando', 'adolescent therapy orlando', 'teen mental health orlando'],
-  canonical: 'https://avelatherapy.com/locations/orlando',
+
   openGraph: {
     title: 'Teen Therapy Orlando Florida | Virtual Teen Counseling Orlando - Avela Therapy',
     description: 'Professional teen therapy in Orlando, Florida. Virtual teen counseling services available throughout Orange County.',

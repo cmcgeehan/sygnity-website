@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Medication Management Florida | Psychiatric Medication Services - Avela Therapy',
   description: 'Professional medication management in Florida. Psychiatric medication services for teens and adults. Licensed psychiatrists providing virtual medication consultations.',
   keywords: ['medication management', 'psychiatric medication', 'virtual psychiatry', 'medication consultation'],
-  canonical: 'https://avelatherapy.com/services/medication-management',
+
   openGraph: {
     title: 'Medication Management Florida | Psychiatric Medication Services - Avela Therapy',
     description: 'Professional medication management in Florida. Psychiatric medication services for teens and adults.',

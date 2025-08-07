@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Teen Therapy West Palm Beach Florida | Virtual Teen Counseling West Palm Beach - Avela Therapy',
   description: 'Professional teen therapy in West Palm Beach, Florida. Virtual teen counseling services available throughout Palm Beach County. Licensed therapists specializing in adolescent mental health.',
   keywords: ['teen therapy west palm beach', 'virtual teen counseling west palm beach', 'adolescent therapy west palm beach', 'teen mental health west palm beach'],
-  canonical: 'https://avelatherapy.com/locations/west-palm-beach',
+
   openGraph: {
     title: 'Teen Therapy West Palm Beach Florida | Virtual Teen Counseling West Palm Beach - Avela Therapy',
     description: 'Professional teen therapy in West Palm Beach, Florida. Virtual teen counseling services available throughout Palm Beach County.',

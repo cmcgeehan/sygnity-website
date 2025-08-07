@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Teen Therapy Fort Lauderdale Florida | Virtual Teen Counseling Fort Lauderdale - Avela Therapy',
   description: 'Professional teen therapy in Fort Lauderdale, Florida. Virtual teen counseling services available throughout Broward County. Licensed therapists specializing in adolescent mental health.',
   keywords: ['teen therapy fort lauderdale', 'virtual teen counseling fort lauderdale', 'adolescent therapy fort lauderdale', 'teen mental health fort lauderdale'],
-  canonical: 'https://avelatherapy.com/locations/fort-lauderdale',
+
   openGraph: {
     title: 'Teen Therapy Fort Lauderdale Florida | Virtual Teen Counseling Fort Lauderdale - Avela Therapy',
     description: 'Professional teen therapy in Fort Lauderdale, Florida. Virtual teen counseling services available throughout Broward County.',

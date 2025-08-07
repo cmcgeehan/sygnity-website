@@ -7,7 +7,6 @@ export const metadata: Metadata = {
   title: 'About Avela Therapy - Expert Teen Therapy Team Florida | Virtual Teen Counseling',
   description: 'Meet the expert teen therapy team at Avela Therapy. Licensed therapists specializing in adolescent mental health throughout Florida. Virtual teen counseling services.',
   keywords: ['about avela therapy', 'teen therapy team', 'expert therapists', 'adolescent mental health specialists'],
-  canonical: 'https://avelatherapy.com/about',
   openGraph: {
     title: 'About Avela Therapy - Expert Teen Therapy Team Florida',
     description: 'Meet the expert teen therapy team at Avela Therapy. Licensed therapists specializing in adolescent mental health throughout Florida.',

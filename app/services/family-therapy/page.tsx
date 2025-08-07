@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Family Therapy Florida | Virtual Family Counseling with Teen Focus - Avela Therapy',
   description: 'Professional family therapy in Florida. Virtual family counseling with focus on teen mental health. Licensed therapists helping families navigate challenges together.',
   keywords: ['family therapy', 'virtual family counseling', 'teen family therapy', 'family counseling florida'],
-  canonical: 'https://avelatherapy.com/services/family-therapy',
+
   openGraph: {
     title: 'Family Therapy Florida | Virtual Family Counseling with Teen Focus - Avela Therapy',
     description: 'Professional family therapy in Florida. Virtual family counseling with focus on teen mental health.',

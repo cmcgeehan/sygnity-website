@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Teen Anxiety Therapy Florida | Virtual Anxiety Treatment for Teenagers - Avela Therapy',
   description: 'Professional teen anxiety therapy in Florida. Virtual anxiety treatment for teenagers. Licensed therapists specializing in adolescent anxiety disorders and panic attacks.',
   keywords: ['teen anxiety therapy', 'virtual anxiety treatment', 'adolescent anxiety', 'teen panic attacks'],
-  canonical: 'https://avelatherapy.com/teen-anxiety',
+
   openGraph: {
     title: 'Teen Anxiety Therapy Florida | Virtual Anxiety Treatment for Teenagers - Avela Therapy',
     description: 'Professional teen anxiety therapy in Florida. Virtual anxiety treatment for teenagers.',

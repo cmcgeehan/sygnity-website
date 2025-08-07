@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Teen Depression Therapy Florida | Help My Depressed Teenager - Avela Therapy',
   description: 'Professional teen depression therapy in Florida. Help for depressed teenagers with virtual counseling. Licensed therapists specializing in adolescent depression treatment.',
   keywords: ['teen depression therapy', 'depressed teenager help', 'adolescent depression', 'virtual depression counseling'],
-  canonical: 'https://avelatherapy.com/teen-depression',
+
   openGraph: {
     title: 'Teen Depression Therapy Florida | Help My Depressed Teenager - Avela Therapy',
     description: 'Professional teen depression therapy in Florida. Help for depressed teenagers with virtual counseling.',

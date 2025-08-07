@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Teen Therapy Tampa Florida | Virtual Teen Counseling Tampa - Avela Therapy',
   description: 'Professional teen therapy in Tampa, Florida. Virtual teen counseling services available throughout Hillsborough County. Licensed therapists specializing in adolescent mental health.',
   keywords: ['teen therapy tampa', 'virtual teen counseling tampa', 'adolescent therapy tampa', 'teen mental health tampa'],
-  canonical: 'https://avelatherapy.com/locations/tampa',
+
   openGraph: {
     title: 'Teen Therapy Tampa Florida | Virtual Teen Counseling Tampa - Avela Therapy',
     description: 'Professional teen therapy in Tampa, Florida. Virtual teen counseling services available throughout Hillsborough County.',

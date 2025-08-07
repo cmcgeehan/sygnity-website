@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Teen Trauma Therapy Florida | PTSD & Grief Counseling for Teenagers - Avela Therapy',
   description: 'Professional teen trauma therapy in Florida. PTSD and grief counseling for teenagers. Licensed therapists specializing in adolescent trauma treatment and recovery.',
   keywords: ['teen trauma therapy', 'PTSD counseling', 'grief counseling', 'adolescent trauma treatment'],
-  canonical: 'https://avelatherapy.com/teen-trauma',
+
   openGraph: {
     title: 'Teen Trauma Therapy Florida | PTSD & Grief Counseling for Teenagers - Avela Therapy',
     description: 'Professional teen trauma therapy in Florida. PTSD and grief counseling for teenagers.',

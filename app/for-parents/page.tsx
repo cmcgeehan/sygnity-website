@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Help My Teen with Depression Florida - Virtual Therapy for Reluctant Teens | Avela Therapy',
   description: 'Help for parents with depressed teenagers in Florida. Virtual therapy for reluctant teens. Professional guidance and support for families dealing with adolescent mental health challenges.',
   keywords: ['help my teen with depression', 'reluctant teen therapy', 'virtual teen counseling', 'teen mental health support'],
-  canonical: 'https://avelatherapy.com/for-parents',
+
   openGraph: {
     title: 'Help My Teen with Depression Florida - Virtual Therapy for Reluctant Teens | Avela Therapy',
     description: 'Help for parents with depressed teenagers in Florida. Virtual therapy for reluctant teens.',
