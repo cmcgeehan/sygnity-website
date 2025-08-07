@@ -14,6 +14,9 @@ const nextConfig = {
   compress: true,
   poweredByHeader: false,
   generateEtags: true,
+  experimental: {
+    optimizePackageImports: ['lucide-react'],
+  },
   async headers() {
     return [
       {
@@ -66,6 +69,33 @@ const nextConfig = {
           {
             key: 'Cache-Control',
             value: 'public, max-age=86400',
+          },
+        ],
+      },
+      {
+        source: '/:path*\\.webp',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable',
+          },
+        ],
+      },
+      {
+        source: '/:path*\\.avif',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable',
+          },
+        ],
+      },
+      {
+        source: '/:path*\\.(jpg|jpeg|png|svg)',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable',
           },
         ],
       },

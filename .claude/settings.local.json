@@ -9,7 +9,10 @@
       "Bash(true)",
       "Bash(npx next lint:*)",
       "Bash(node:*)",
-      "Bash(npx tsc:*)"
+      "Bash(npx tsc:*)",
+      "Bash(convert:*)",
+      "Bash(magick:*)",
+      "Bash(find:*)"
     ],
     "deny": []
   }

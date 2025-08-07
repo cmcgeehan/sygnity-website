@@ -46,14 +46,18 @@ export function Hero() {
 
           <div className="relative w-full max-w-lg">
             <div className="relative z-10">
-              <Image
-                src="/happy-family.jpg"
-                alt="Happy family - Teen therapy Florida - Virtual counseling for adolescent anxiety and depression treatment"
-                width={500}
-                height={600}
-                className="rounded-2xl shadow-2xl w-full h-auto"
-                style={{ width: '100%', height: 'auto' }}
-              />
+              <picture>
+                <source srcSet="/happy-family.webp" type="image/webp" />
+                <Image
+                  src="/happy-family.jpg"
+                  alt="Happy family - Teen therapy Florida - Virtual counseling for adolescent anxiety and depression treatment"
+                  width={500}
+                  height={600}
+                  className="rounded-2xl shadow-2xl w-full h-auto"
+                  style={{ width: '100%', height: 'auto' }}
+                  priority
+                />
+              </picture>
             </div>
             <div className="absolute -top-4 -right-4 w-full h-full bg-blush-pink/20 rounded-2xl -z-10"></div>
           </div>

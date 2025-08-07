@@ -2,6 +2,8 @@
 
 ## LINKEDIN COMPANY PAGE
 
+Status: DONE
+
 ### Setup Information
 **Company Name:** Avela Therapy  
 **Industry:** Mental Health Care  
@@ -27,6 +29,8 @@ Avela Therapy is Florida's leading virtual teen therapy practice, specializing i
 ---
 
 ## FACEBOOK BUSINESS PAGE
+
+DONE
 
 ### Setup Information  
 **Business Name:** Avela Therapy  
@@ -72,6 +76,7 @@ Health/Medical/Mental Health Service
 ---
 
 ## TWITTER/X BUSINESS ACCOUNT
+Status: DONE
 
 ### Setup Information
 **Handle:** @avelatherapy  

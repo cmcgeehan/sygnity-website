@@ -43,7 +43,7 @@ AvelaTherapy6543!
 - Dr. Tommy McGee: Teen Trauma & Depression Specialist  
 - Dr. Raju Mangrola: Teen Psychiatrist & Medication Management
 
-### 2. TherapyDen ⭐⭐⭐⭐
+### 2. TherapyDen ⭐⭐⭐⭐ DONE
 **URL:** https://www.therapyden.com/join
 **Importance:** HIGH - Growing therapist directory
 **Action:** Create practice profile + individual therapist profiles
@@ -55,7 +55,7 @@ AvelaTherapy6543!
 **Action:** Submit business + therapist profiles
 **Cost:** $19.95/month
 
-### 4. Zocdoc ⭐⭐⭐
+### 4. Zocdoc ⭐⭐⭐ SEMI-DONE: this one did not let me complete without verifying as a counselor which I am not
 **URL:** https://providers.zocdoc.com/
 **Importance:** MEDIUM-HIGH - Medical appointments platform
 **Action:** Create provider profiles for all therapists
@@ -71,12 +71,12 @@ AvelaTherapy6543!
 
 ## PRIORITY 2 DIRECTORIES (Submit TODAY - Hour 6)
 
-### 6. Vitals
+### 6. Vitals REQUESTED
 **URL:** https://www.vitals.com/business/signup
 **Action:** Create provider profiles
 **Cost:** FREE
 
-### 7. WebMD Provider Directory
+### 7. WebMD Provider Directory REQUESTED
 **URL:** https://doctor.webmd.com/
 **Action:** Create provider listings
 **Cost:** Varies

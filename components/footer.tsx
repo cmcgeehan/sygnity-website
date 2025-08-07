@@ -9,7 +9,7 @@ export function Footer() {
           <div>
             <div className="mb-4">
               <img 
-                src="/avelaWordmark.png" 
+                src="/avelaWordmark.webp" 
                 alt="Avela Therapy" 
                 className="h-12 w-auto"
               />

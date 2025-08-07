@@ -100,8 +100,9 @@ const config: Config = {
   			'accordion-up': 'accordion-up 0.2s ease-out'
   		},
       fontFamily: {
-        sans: ['Source Sans 3', 'Inter', 'system-ui', 'sans-serif'],
-        display: ['Playfair Display', 'serif'],
+        sans: ['var(--font-source-sans)', 'var(--font-inter)', 'system-ui', 'sans-serif'],
+        display: ['var(--font-playfair)', 'serif'],
+        inter: ['var(--font-inter)', 'system-ui', 'sans-serif'],
       },
       letterSpacing: {
         tighter: '-.05em',

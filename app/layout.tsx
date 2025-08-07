@@ -1,12 +1,28 @@
 import type { Metadata, Viewport } from 'next'
-import { Inter } from 'next/font/google'
+import { Inter, Source_Sans_3, Playfair_Display } from 'next/font/google'
 import './globals.css'
 import '../styles/fixes.css'
 import { StickyCallBar } from '@/components/sticky-call-bar'
 import { Header } from '@/components/header'
 import { Footer } from '@/components/footer'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ 
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-inter'
+})
+
+const sourceSans = Source_Sans_3({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-source-sans'
+})
+
+const playfair = Playfair_Display({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-playfair'
+})
 
 export const viewport: Viewport = {
   width: 'device-width',
@@ -59,6 +75,8 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+        <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
         <link rel="icon" href="/avelaWordmark.png" type="image/png" />
         <link rel="apple-touch-icon" href="/avelaWordmark.png" />
         <link rel="icon" type="image/png" sizes="any" href="/avelaWordmark.png" />
@@ -74,7 +92,7 @@ export default function RootLayout({
                 "alternateName": "Avela Teen Therapy Florida",
                 "description": "Virtual teen therapy in Florida specializing in anxiety, depression, and trauma treatment for teenagers and adolescents",
                 "url": "https://avelatherapy.com",
-                "logo": "https://avelatherapy.com/avelaWordmark.png",
+                "logo": "https://avelatherapy.com/avelaWordmark.webp",
                 "image": "https://avelatherapy.com/og-image.jpg",
                 "telephone": "+15616142857",
                 "email": "info@avelatherapy.com",
@@ -208,7 +226,7 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className={inter.className}>
+      <body className={`${inter.variable} ${sourceSans.variable} ${playfair.variable} font-sans`}>
         <Header />
         <main>{children}</main>
         <Footer />

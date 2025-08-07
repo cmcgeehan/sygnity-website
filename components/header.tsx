@@ -64,7 +64,7 @@ export function Header() {
         <div className="flex items-center justify-between h-16 px-4 sm:px-6 lg:px-8">
           <Link href="/" className="flex items-center">
             <img 
-              src="/avelaWordmark.png" 
+              src="/avelaWordmark.webp" 
               alt="Avela Therapy" 
               className="h-12 w-auto"
             />
