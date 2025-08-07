@@ -10,6 +10,33 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
+    slug: 'teen-trauma-therapy-tampa-emdr-virtual-healing',
+    title: 'Teen Trauma Therapy in Tampa: EMDR and Virtual Healing',
+    excerpt: 'Comprehensive guide to trauma therapy for Tampa teens using EMDR and virtual healing approaches. Learn how compassionate, evidence-based treatment can help your teenager recover from trauma and reclaim their future.',
+    author: 'Dr. Tommy McGee',
+    date: '2025-08-07',
+    category: 'Teen Trauma Recovery',
+    readTime: '18 min read'
+  },
+  {
+    slug: 'virtual-vs-in-person-teen-therapy',
+    title: 'Virtual vs In-Person Teen Therapy: Which is Better for Your Teen?',
+    excerpt: 'A comprehensive, research-based guide to help Florida parents choose between virtual and in-person therapy options for their teenager\'s mental health needs.',
+    author: 'Dr. Tommy McGee',
+    date: '2025-01-10',
+    category: 'Teen Mental Health',
+    readTime: '22 min read'
+  },
+  {
+    slug: 'teen-depression-treatment-west-palm-beach-online-counseling',
+    title: 'Teen Depression Treatment in West Palm Beach: Online Counseling Services',
+    excerpt: 'Expert teen depression treatment in West Palm Beach through virtual counseling. Licensed therapists specializing in adolescent depression therapy for Palm Beach County families.',
+    author: 'Dr. Tommy McGee',
+    date: '2024-02-20',
+    category: 'Teen Depression',
+    readTime: '15 min read'
+  },
+  {
     slug: '5-signs-your-teen-might-be-struggling',
     title: '5 Signs Your Teen Needs Mental Health Help - Florida Teen Therapy Guide',
     excerpt: 'Recognize warning signs of teen anxiety, depression, and trauma. Learn when to seek professional virtual teen therapy in Florida and how to start the conversation with our anxiety, depression, and trauma specialists.',

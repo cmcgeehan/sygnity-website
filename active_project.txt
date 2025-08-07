@@ -16,6 +16,12 @@
 - [x] Fix services page sub header spacing
 - [x] Update team headshots (about page, team page, individual bios)
 - [x] Fix navigation - add team item nested under about section
+- [x] Deploy to Vercel and push to git
+
+### Deployment Status:
+- ✅ Clean build completed successfully
+- ✅ Deployed to Vercel production: https://sygnity-website-jd9udoj9a-cmcgeehans-projects.vercel.app
+- ✅ Changes committed and pushed to git repository
 
 ---
 
