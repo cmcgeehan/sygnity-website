@@ -5,7 +5,7 @@ const teamMembers = [
   {
     name: 'Dr. Sofia Georgoulias, PsyD',
     role: 'Chief Clinical Officer',
-    image: '/placeholder.svg?height=300&width=300',
+    image: '/georgoulias.png',
     credentials: 'Licensed Clinical Psychologist (FL, NY), PsyPact Participant, CASAC',
     specialties: ['Substance Abuse Treatment', 'Harm Reduction', 'First Responder Support', 'Telehealth'],
     bio: 'Dr. Georgoulias is a seasoned psychologist with over 13 years of experience working with individuals, couples, and families struggling with mental health and substance abuse issues. She is the Co-Chair of the Brooklyn Alcoholism and Substance Abuse Council and has delivered workshops and trainings for major institutions. Dr. Georgoulias has extensive experience working with First Responders and was invited to present at the First Responders Summit in Washington DC by Senator Gillibrand.'
@@ -13,7 +13,7 @@ const teamMembers = [
   {
     name: 'Dr. Raju Mangrola, MD',
     role: 'Medical Director',
-    image: '/placeholder.svg?height=300&width=300',
+    image: '/mangrola.jpeg',
     credentials: 'Board Certified in Psychiatry, Addiction Psychiatry, Forensic Psychiatry, Psychosomatic Medicine, and Addiction Medicine',
     specialties: ['Medication Management', 'Addiction Treatment', 'Psychiatric Evaluation', 'Treatment Center Leadership'],
     bio: 'With over 30 years of psychiatric practice and five board certifications, Dr. Mangrola brings unparalleled expertise to mental health care. He has served as Medical Director for prestigious treatment centers including The Hanley Center, Light House Detox, Wellness Resource Center, and Caron. His extensive experience and leadership in the field underscore his commitment to providing exceptional, patient-focused care.'
@@ -21,7 +21,7 @@ const teamMembers = [
   {
     name: 'Tommy McGee, LMHC',
     role: 'Clinical Director',
-    image: '/placeholder.svg?height=300&width=300',
+    image: '/mcgee.jpg',
     credentials: 'Licensed Mental Health Counselor, Certified Addiction Professional, Master\'s in Counseling Psychology',
     specialties: ['Co-occurring Disorders', 'Cultural Programs', 'Crisis Intervention', 'Treatment Planning'],
     bio: 'With over 20 years of experience in mental health and addiction treatment, Tommy has worked in clinical, supportive, and administrative roles, specializing in co-occurring disorders and diverse client populations. He has developed culturally tailored programs for Native American recovery, post-incarceration skills training, and aftercare for high-net-worth individuals. As an educator at Palm Beach State College and the Academy for Addiction Professionals, he has taught courses in Psychology, crisis intervention, and treatment planning.'

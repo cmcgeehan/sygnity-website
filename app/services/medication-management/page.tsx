@@ -333,18 +333,18 @@ export default function MedicationManagementPage() {
       {/* CTA Section */}
       <div className="section-padding">
         <div className="container-max">
-          <div className="bg-gradient-to-r from-[#20394c] to-[#2e4f64] rounded-3xl p-8 md:p-16 text-center text-white">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+          <div className="bg-cream rounded-3xl p-8 md:p-16 text-center">
+            <h2 className="text-3xl md:text-4xl font-light text-charcoal mb-4 font-display tracking-wider small-caps">
               Optimize Your Mental Health with Expert Medication Management
             </h2>
-            <p className="text-xl mb-8 opacity-90">
+            <p className="text-xl mb-8 text-soft-gray tracking-wide">
               Schedule a consultation to discuss how medication management can support your mental health goals in Florida.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="tel:+15616142857" className="bg-[#ff6b6b] text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-[#ff5252] transition-colors">
+              <Link href="tel:+15616142857" className="btn-primary text-lg py-4 px-8">
                 Schedule Medication Consultation
               </Link>
-              <Link href="/services/family-therapy" className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-[#20394c] transition-colors">
+              <Link href="/services/family-therapy" className="btn-secondary text-lg py-4 px-8">
                 Family Therapy Services
               </Link>
             </div>

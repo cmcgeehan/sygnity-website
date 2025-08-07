@@ -1,5 +1,24 @@
 # Active Project Log
 
+## Current Task: Specific Styling Fixes
+**Status:** Active - Immediate
+**Started:** December 19, 2024
+**Goal:** Fix specific styling issues identified
+
+### Issues to Fix:
+1. Services pages section "Optimize Your Mental Health with Expert Medication Management" - still using old styling
+2. "Our services" page - need space between "and" and "therapy services" in sub header text
+3. Update team headshots across all pages (about, team, individual bios)
+4. Fix navigation - add team item nested under about section
+
+### Progress:
+- [x] Fix medication management page styling
+- [x] Fix services page sub header spacing
+- [x] Update team headshots (about page, team page, individual bios)
+- [x] Fix navigation - add team item nested under about section
+
+---
+
 ## Current Project: 8-hour SEO sprint - Top 3 google rankings
 
 **Status:** Active - Urgent

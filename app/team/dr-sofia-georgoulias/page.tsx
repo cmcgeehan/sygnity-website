@@ -76,7 +76,7 @@ export default function DrSofiaGeorgouliasPage() {
             <div>
               <div className="relative mb-8">
                 <Image
-                  src="/placeholder-user.jpg"
+                  src="/georgoulias.png"
                   alt="Dr. Sofia Georgoulias - Teen Therapist Florida"
                   width={400}
                   height={500}

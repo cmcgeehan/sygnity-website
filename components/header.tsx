@@ -6,13 +6,16 @@ import { Menu, X, Phone, ChevronDown } from 'lucide-react'
 
 const navigation = [
   { name: 'Home', href: '/' },
-  { name: 'About', href: '/about' },
   { name: 'Services', href: '/services' },
-  { name: 'Team', href: '/team' },
   { name: 'For Parents', href: '/for-parents' },
   { name: 'FAQ', href: '/faq' },
   { name: 'Blog', href: '/blog' },
   { name: 'Contact', href: '/contact' },
+]
+
+const aboutItems = [
+  { name: 'About Us', href: '/about' },
+  { name: 'Our Team', href: '/team' },
 ]
 
 const locations = [
@@ -26,8 +29,10 @@ const locations = [
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [isLocationsOpen, setIsLocationsOpen] = useState(false)
+  const [isAboutOpen, setIsAboutOpen] = useState(false)
   const [isMounted, setIsMounted] = useState(false)
   const locationsRef = useRef<HTMLDivElement>(null)
+  const aboutRef = useRef<HTMLDivElement>(null)
 
   // Ensure component is mounted before allowing state changes
   useEffect(() => {
@@ -41,11 +46,15 @@ export function Header() {
       if (locationsRef.current && !locationsRef.current.contains(event.target as Node)) {
         setIsLocationsOpen(false)
       }
+      if (aboutRef.current && !aboutRef.current.contains(event.target as Node)) {
+        setIsAboutOpen(false)
+      }
     }
 
     function handleEscapeKey(event: KeyboardEvent) {
       if (event.key === 'Escape') {
         setIsLocationsOpen(false)
+        setIsAboutOpen(false)
       }
     }
 
@@ -81,6 +90,40 @@ export function Header() {
                 {item.name}
               </Link>
             ))}
+            
+            {/* About Dropdown */}
+            <div className="relative" ref={aboutRef}>
+              <button
+                onClick={() => isMounted && setIsAboutOpen(!isAboutOpen)}
+                className="text-charcoal hover:text-dusty-blue font-medium transition-colors flex items-center gap-1 tracking-wider all-lowercase"
+                type="button"
+                aria-expanded={isAboutOpen}
+                aria-haspopup="true"
+                disabled={!isMounted}
+              >
+                About
+                <ChevronDown 
+                  className={`w-4 h-4 transition-transform ${isAboutOpen && isMounted ? 'rotate-180' : ''}`} 
+                />
+              </button>
+              
+              <div 
+                className={`absolute top-full left-0 mt-2 w-48 bg-[#F3E7DA]/95 backdrop-blur-sm border border-dusty-blue/20 rounded-lg shadow-lg py-2 z-50 transition-all duration-200 ${
+                  isAboutOpen && isMounted ? 'opacity-100 visible' : 'opacity-0 invisible pointer-events-none'
+                }`}
+              >
+                {aboutItems.map((item) => (
+                  <Link
+                    key={item.name}
+                    href={item.href}
+                    className="block px-4 py-2 text-charcoal hover:text-dusty-blue hover:bg-dusty-blue/5 transition-colors tracking-wider all-lowercase"
+                    onClick={() => setIsAboutOpen(false)}
+                  >
+                    {item.name}
+                  </Link>
+                ))}
+              </div>
+            </div>
             
             {/* Locations Dropdown */}
             <div className="relative" ref={locationsRef}>
@@ -157,6 +200,23 @@ export function Header() {
                     {item.name}
                   </Link>
                 ))}
+              </div>
+              
+              {/* Mobile About */}
+              <div className="border-t pt-4">
+                <div className="text-sm font-semibold text-soft-gray mb-3 tracking-wider all-lowercase">about</div>
+                <div className="flex flex-col space-y-3">
+                  {aboutItems.map((item) => (
+                    <Link
+                      key={item.name}
+                      href={item.href}
+                      className="text-charcoal hover:text-dusty-blue font-medium py-2 pl-4 border-b border-dusty-blue/10 tracking-wider all-lowercase"
+                      onClick={() => setIsMenuOpen(false)}
+                    >
+                      {item.name}
+                    </Link>
+                  ))}
+                </div>
               </div>
               
               {/* Mobile Locations */}

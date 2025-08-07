@@ -54,7 +54,7 @@ export default function ServicesPage() {
             <p className="text-xl text-soft-gray max-w-3xl mx-auto tracking-wide">
               Comprehensive mental health services tailored to meet the unique needs of adolescents, adults, and families in Florida. 
               We also offer specialized <Link href="/teen-anxiety" className="text-dusty-blue hover:text-blush-pink font-medium underline transition-colors tracking-wider all-lowercase">teen anxiety</Link>, 
-              <Link href="/teen-depression" className="text-dusty-blue hover:text-blush-pink font-medium underline transition-colors tracking-wider all-lowercase">depression</Link>, and 
+                            <Link href="/teen-depression" className="text-dusty-blue hover:text-blush-pink font-medium underline transition-colors tracking-wider all-lowercase">depression</Link>, and 
               <Link href="/teen-trauma" className="text-dusty-blue hover:text-blush-pink font-medium underline transition-colors tracking-wider all-lowercase">trauma therapy</Link> services.
             </p>
           </div>

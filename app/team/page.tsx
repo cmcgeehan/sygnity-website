@@ -22,7 +22,7 @@ const teamMembers = [
     experience: '12+ Years',
     education: 'Ph.D. Clinical Psychology, University of Florida',
     credentials: 'Licensed in Florida, Board Certified',
-    image: '/placeholder-user.jpg',
+    image: '/georgoulias.png',
     href: '/team/dr-sofia-georgoulias',
     specialties: [
       'Teen Anxiety Disorders (GAD, Social Anxiety, Panic)',
@@ -38,7 +38,7 @@ const teamMembers = [
     experience: '15+ Years',
     education: 'MSW Clinical Practice, Florida State University',
     credentials: 'Licensed in Florida, EMDR Certified',
-    image: '/placeholder-user.jpg',
+    image: '/mcgee.jpg',
     href: '/team/dr-tommy-mcgee',
     specialties: [
       'Teen Depression & Major Depressive Disorder',
@@ -54,7 +54,7 @@ const teamMembers = [
     experience: '18+ Years',
     education: 'M.D. Psychiatry, University of Miami',
     credentials: 'Licensed in Florida, Board Certified Psychiatrist',
-    image: '/placeholder-user.jpg',
+    image: '/mangrola.jpeg',
     href: '/team/dr-raju-mangrola',
     specialties: [
       'Teen ADHD Assessment & Treatment',

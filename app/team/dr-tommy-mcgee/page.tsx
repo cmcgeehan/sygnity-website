@@ -76,7 +76,7 @@ export default function DrTommyMcGeePage() {
             <div>
               <div className="relative mb-8">
                 <Image
-                  src="/placeholder-user.jpg"
+                  src="/mcgee.jpg"
                   alt="Dr. Tommy McGee - Teen Therapist Florida"
                   width={400}
                   height={500}

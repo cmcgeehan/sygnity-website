@@ -76,7 +76,7 @@ export default function DrRajuMangrolaPage() {
             <div>
               <div className="relative mb-8">
                 <Image
-                  src="/placeholder-user.jpg"
+                  src="/mangrola.jpeg"
                   alt="Dr. Raju Mangrola - Teen Psychiatrist Florida"
                   width={400}
                   height={500}
