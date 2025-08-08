@@ -10,6 +10,33 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
+    slug: 'why-virtual-teen-therapy-works-better-than-you-think',
+    title: 'Why Virtual Teen Therapy Works Better Than You Think',
+    excerpt: 'Research proves virtual therapy works for teens. Higher engagement rates, better outcomes, and surprising advantages over traditional in-person therapy. Discover the science behind online therapy success.',
+    author: 'Dr. Tommy McGee',
+    date: '2025-08-08',
+    category: 'Teen Mental Health',
+    readTime: '22 min read'
+  },
+  {
+    slug: 'school-refusal-therapy-miami-teens-back-learning',
+    title: 'School Refusal Therapy in Miami: Getting Teens Back to Learning',
+    excerpt: 'Comprehensive school refusal therapy for Miami teens. Virtual treatment helps overcome school avoidance and anxiety while supporting families through the journey back to academic success.',
+    author: 'Dr. Tommy McGee',
+    date: '2025-08-07',
+    category: 'Teen Mental Health',
+    readTime: '18 min read'
+  },
+  {
+    slug: 'teen-therapy-fort-lauderdale-virtual-mental-health',
+    title: 'Teen Therapy in Fort Lauderdale: Virtual Mental Health Services',
+    excerpt: 'Comprehensive virtual mental health services for Broward County teens. Expert therapy for anxiety, depression, trauma, and behavioral challenges from licensed Florida therapists.',
+    author: 'Dr. Tommy McGee',
+    date: '2025-08-07',
+    category: 'Teen Mental Health',
+    readTime: '25 min read'
+  },
+  {
     slug: 'teen-trauma-therapy-tampa-emdr-virtual-healing',
     title: 'Teen Trauma Therapy in Tampa: EMDR and Virtual Healing',
     excerpt: 'Comprehensive guide to trauma therapy for Tampa teens using EMDR and virtual healing approaches. Learn how compassionate, evidence-based treatment can help your teenager recover from trauma and reclaim their future.',
