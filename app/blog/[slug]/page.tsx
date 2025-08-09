@@ -15,7 +15,7 @@ const blogPosts = {
     category: 'Teen Mental Health',
     image: '/placeholder.svg?height=400&width=800&text=Virtual+Teen+Therapy+Success',
     readTime: '22 min read',
-    content: \`
+    content: `
       <div class="bg-[#f5f1ec] border-l-4 border-[#6cbf84] p-6 rounded-r-lg mb-8">
         <p class="mb-0 text-charcoal"><strong>Key Takeaway:</strong> Recent research shows virtual therapy for teenagers achieves 85% engagement rates compared to 60% for traditional therapy, with equally effective outcomes. Teen preferences for digital communication, combined with reduced barriers and innovative therapeutic tools, make online counseling particularly successful for adolescent mental health treatment.</p>
       </div>
@@ -644,7 +644,7 @@ const blogPosts = {
       <p>Whether you're located in <a href="/locations/miami">Miami</a>, Tampa, Orlando, or anywhere else in Florida, virtual therapy makes expert adolescent mental health care accessible to your family. <a href="/contact">Contact us today</a> to schedule a consultation and discover how virtual therapy can support your teenager's mental health journey.</p>
 
       <p><em>Call (561) 614-2857 to speak with our teen therapy specialists and learn more about our virtual counseling services throughout Florida.</em></p>
-    \`,
+    `
   },
   'school-refusal-therapy-miami-teens-back-learning': {
     title: 'School Refusal Therapy in Miami: Getting Teens Back to Learning',
